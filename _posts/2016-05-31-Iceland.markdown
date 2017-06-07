@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Meandering in Iceland"
+date:   2016-05-31 19:55	:31 +0530
+categories: ["Adventures"]
+author: "Eduardo Nunez"
+---

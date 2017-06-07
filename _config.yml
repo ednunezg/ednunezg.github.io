@@ -1,1 +1,24 @@
-theme: jekyll-theme-cayman
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Ed Nunez
+email: nunez087@umn.com
+description: software engineer by day . runner by night . amateur musician whatever time is left
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://eddypuffs.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  eddypuffs
+facebook_username:  eddypuffz
+linkedin_username:  nunez087
+youtube_username:  
+
+paginate: 5
+
+gems: [jekyll-paginate, kramdown]
+# Build settings
+markdown: kramdown
