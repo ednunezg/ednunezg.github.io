@@ -518,7 +518,8 @@ pre {
   -moz-transition: background 0.8s linear; }
   @media screen and (max-width: 600px) {
     .project {
-      width: 320px; } }
+      width: 320px;
+      height: 800px; } }
 
 .project-title {
   padding-bottom: 5px; }
@@ -548,7 +549,8 @@ pre {
   -moz-transition: background 0.3s linear; }
   @media screen and (max-width: 600px) {
     .miniproject {
-      width: 320px; } }
+      width: 320px;
+      height: 500px; } }
 
 .project-image {
   width: 32%;
