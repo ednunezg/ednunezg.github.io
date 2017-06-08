@@ -87,7 +87,7 @@ order: 1
 	  <div class="project-title"> <h2>Chat Server and Client</h2> <div class="date">2017/02</div> <br> </div>
 	  
 	  <div class="project-info">
-      <p> For my computer networks course, I developed a chat server and chat client program in Java. Special features include a user registration system and P2P file sharing between clients.</p>
+      <p> For my computer networks course, I developed a chat server and chat client programs in Java. Special features include a user registration system and P2P file sharing between clients.</p>
 	  </div>
 
 	  <div class="project-links">
@@ -148,7 +148,7 @@ order: 1
 	  <div class="project-title"> <h2>Self navigating robot in 2D space</h2> <div class="date">2015/03</div> <br> </div>
 	  
 	  <div class="project-info">
-      <p> Created prototype for a self navigating mobile robot to research portable and affordable solutions to CNC Mills. Future prototypes will include mounted drawing device. System relies on Arduino board, Zigbee communication, robot localization methods, and PID controls</p>
+      <p> Created prototype for a self navigating mobile robot to research portable and affordable solutions to CNC Mills. Future prototypes will include mounted drawing device. System relies on Arduino board, Zigbee communication, robot localization methods, and PID control.</p>
 	  </div>
 
 	  <div class="project-links">
@@ -206,10 +206,10 @@ order: 1
 
 	<div class="project-body">
 	  
-	  <div class="project-title"> <h2>Engineers Without Borders UMN Checkout</h2>  <div class="date">2013/12</div> <br> </div>
+	  <div class="project-title"> <h2>Engineers Without Borders UMN Checkout</h2>  <div class="date">2014/02</div> <br> </div>
 	  
 	  <div class="project-info">
-      <p> Freshman year, I took on my first "real" software project by making a dynamic website from scratch. The site allows members of EWB UMN reserve and checkout items from a catalog.</p>
+      <p> My first hands-on software project. Made a dynamic website from scratch that allows members of EWB UMN reserve and checkout items from a catalog.</p>
 	  </div>
 
 	  <div class="project-links">
