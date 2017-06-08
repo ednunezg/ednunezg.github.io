@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-tagline: "a portfolio of my most noteworthy tech projects"
+tagline: "a portfolio of my most singificant tech projects"
 order: 1
 ---
 
@@ -23,7 +23,7 @@ order: 1
 	  <div class="project-title"> <h2>Stravaganza: Training log viewer</h2> <div class="date">2017/05</div> <br> </div>
 	  
 	  <div class="project-info">
-      <p> Simple, but beautiful, single page training log viewer for Strava users. Imports workouts via Strava's REST API and presents log to users without the social media / activity feed clutter. Intended to be used as a home screen via a <a href="">Chrome Extension</a>. </p>
+      <p> Simple, but beautiful, single page training log viewer for Strava users. Imports workouts via Strava's REST API and presents log to users without any social media / activity feed clutter. Intended to be used as a browser home screen via a <a href="">Chrome Extension</a>. </p>
 	  </div>
 
 	  <div class="project-links">
@@ -49,7 +49,7 @@ order: 1
 <div class="project">
 
 	<div class="project-image">
-		<img src="{{ site.url }}/assets/projects/speechanalytics.jpg">
+		<img src="{{ site.url }}/assets/projects/speechanalytics.png">
 	</div>
 
 	<div class="project-body">
@@ -226,8 +226,8 @@ order: 1
 </div>
 <br>
 
+<p> More projects available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> site! </p>
 
 
 </div>
 
-<h5> More projects available in my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> site!</h5>
