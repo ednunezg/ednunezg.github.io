@@ -27,7 +27,7 @@ order: 1
 	  </div>
 
 	  <div class="project-links">
-	  <a href="https://github.com/eddypuffs/Speech_Analytics_App"><i class="fa fa-info-circle"></i> More info</a><br>
+	  <a href="https://checkout.ewb-umn.org"><i class="fa fa-external-link"></i> Link</a><br>
 	  <a href="https://github.com/eddypuffs/Speech_Analytics_App"><i class="fa fa-github"></i> Source Code</a>
 	  </div>
 
@@ -213,6 +213,7 @@ order: 1
 	  </div>
 
 	  <div class="project-links">
+	  <a href="http://checkout.ewb-umn.org"><i class="fa fa-external-link"></i> Link</a><br>
 	  <a href="https://github.com/eddypuffs/checkout.ewb-umn.org"><i class="fa fa-github"></i> Source Code</a>
 	  </div>
 
