@@ -18,7 +18,7 @@ order: 4
 
 <div class="outside-racing">
 
-<p>I don't consider competitive or particularly good at running, but it does shape a significant part of who I am and what I do in my free time. I love to go on long trail runs as means to attain better consciousness of my surroundings and meditative flow. It complements my work/student life by keeping my mind fresh and inspiring me to push through other tough challenges.
+<p>I kinda suck at running, but it does shape a significant part of who I am and what I do in my free time. I love to go on long trail runs as means to attain better consciousness of my surroundings and meditative flow. It complements my work/student life by keeping my mind fresh and inspiring me to push through other tough challenges.
 
 <h4>2017 Race calendar: </h4>
 		<ul>

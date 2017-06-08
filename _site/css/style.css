@@ -167,7 +167,7 @@ pre {
   padding-top: 0; }
 
 .home {
-  padding-bottom: 5em; }
+  padding-bottom: 2em; }
 
 .download {
   padding: 10px; }
@@ -187,7 +187,7 @@ pre {
 .about-me {
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "Source Sans Pro";
   font-weight: 300; }
   .about-me a {
@@ -505,11 +505,6 @@ pre {
  */
 .projects p {
   font-size: 1rem; }
-.projects h2 {
-  font-size: 22px; }
-  @media screen and (max-width: 800px) {
-    .projects h2 {
-      font-size: 18px; } }
 .projects strong {
   font-weight: 400;
   font-family: Arial; }
@@ -517,41 +512,87 @@ pre {
 .project {
   width: 720px;
   height: 240px;
-  border: 1px solid #000; }
+  border: 1px solid #c9c9c9;
+  transition: background 0.8s linear;
+  -webkit-transition: background 0.8s linear;
+  -moz-transition: background 0.8s linear; }
+
+.project-title {
+  padding-bottom: 5px; }
+  .project-title h2 {
+    font-size: 22px;
+    display: inline; }
+    @media screen and (max-width: 800px) {
+      .project-title h2 {
+        font-size: 18px; } }
+  .project-title h2::after {
+    content: "\00a0\00a0"; }
+  .project-title .date {
+    font-size: 18px;
+    color: #999999;
+    display: inline;
+    position: relative; }
+    @media screen and (max-width: 800px) {
+      .project-title .date {
+        font-size: 18px; } }
 
 .miniproject {
   width: 720px;
-  height: 180px;
-  border: 1px solid #000; }
+  height: 190px;
+  border: 1px solid #c9c9c9;
+  transition: background 0.3s linear;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear; }
 
 .project-image {
   width: 240px;
   float: left;
-  padding: 5px;
+  padding: 10px;
   border: 0px solid red;
   box-sizing: border-box; }
 
-.project-desc {
+.project-body {
   width: 480px;
   float: left;
   padding: 5px;
+  padding-right: 1rem;
   border: 0px solid red;
   box-sizing: border-box; }
 
-.project-link {
+.project-links {
+  float: left;
   font-size: 1rem;
   font-style: bold; }
-  .project-link .a:hover {
+  .project-links .a:hover {
     border-bottom: 1px dotted black; }
+
+.project-tags {
+  float: right;
+  list-style: none;
+  padding-top: 0.2rem; }
+  .project-tags .project-tag {
+    display: inline;
+    /* Tag rounded edges */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* Tag box properties */
+    border: 1px solid black;
+    background: #ffffff;
+    padding: 6px;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    /* Space between tags */
+    margin-left: 3px; }
 
 .fa {
   font-size: 1.3rem; }
 
 .project:hover {
-  background: #f2f2f2; }
+  background: #efefef; }
 
 .miniproject:hover {
-  background: #f2f2f2; }
+  background: #efefef; }
 
 /*
  * ADDED: for OUTSIDE page
