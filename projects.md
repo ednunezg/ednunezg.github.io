@@ -158,8 +158,8 @@ order: 1
 
 	  <ul class="project-tags">
 	  	<li class="project-tag">Arduino</li>
+	  	<li class="project-tag">Zigbee</li>
 	  </ul>
-
 	</div>
 </div>
 <br>
