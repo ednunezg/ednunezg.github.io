@@ -411,7 +411,7 @@ pre {
 
 
   @include media-query($on-palm) { /* ADDED: allows elements to be displayed better on mobile */
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 .page-title {
@@ -807,7 +807,7 @@ pre {
 
       /* Space between tags */
       margin-left: 3px;
-      margin-bottom: 3px;
+      margin-bottom: 5px;
 
     }
 }

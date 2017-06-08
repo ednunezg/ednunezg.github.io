@@ -277,7 +277,7 @@ pre {
   @media screen and (max-width: 600px) {
     .site-navigation {
       /* ADDED: allows elements to be displayed better on mobile */
-      font-size: 11px; } }
+      font-size: 12px; } }
 
 .page-title {
   text-transform: uppercase;
@@ -523,7 +523,19 @@ pre {
   @media screen and (max-width: 600px) {
     .project {
       width: 320px;
-      height: 550px; } }
+      height: 520px; } }
+
+.miniproject {
+  width: 720px;
+  height: 190px;
+  border: 1px solid #c9c9c9;
+  transition: background 0.3s linear;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear; }
+  @media screen and (max-width: 600px) {
+    .miniproject {
+      width: 320px;
+      height: 400px; } }
 
 .project-title {
   padding-bottom: 5px; }
@@ -543,18 +555,6 @@ pre {
     @media screen and (max-width: 800px) {
       .project-title .date {
         font-size: 18px; } }
-
-.miniproject {
-  width: 720px;
-  height: 190px;
-  border: 1px solid #c9c9c9;
-  transition: background 0.3s linear;
-  -webkit-transition: background 0.3s linear;
-  -moz-transition: background 0.3s linear; }
-  @media screen and (max-width: 600px) {
-    .miniproject {
-      width: 320px;
-      height: 400px; } }
 
 .project-image {
   width: 32%;
@@ -583,6 +583,7 @@ pre {
   list-style: none;
   padding-top: 0.2rem; }
   .project-tags .project-tag {
+    /* For mobile */
     display: inline-block;
     /* Tag rounded edges */
     -webkit-border-radius: 5px;
@@ -595,7 +596,8 @@ pre {
     font-size: 0.9rem;
     font-family: 'Open Sans', sans-serif;
     /* Space between tags */
-    margin-left: 3px; }
+    margin-left: 3px;
+    margin-bottom: 5px; }
 
 .fa {
   font-size: 1.3rem; }
