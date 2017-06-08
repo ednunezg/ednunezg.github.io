@@ -692,6 +692,11 @@ pre {
    -webkit-transition: background 0.8s linear;
    -moz-transition: background 0.8s linear;
 
+
+    @include media-query($on-palm) {
+        width:320px;
+    }
+
 }
 
 .project-title{
@@ -735,17 +740,22 @@ pre {
    -webkit-transition: background 0.3s linear;
    -moz-transition: background 0.3s linear;
 
+       @include media-query($on-palm) {
+        width:320px;
+    }
+
+
 }
 
 .project-image {
-    width: 240px;
+    width: 32%;
     float: left;
     padding: 10px;
     border: 0px solid red;
     box-sizing: border-box;
 }
 .project-body {
-    width: 480px;
+    width: 68%;
     float: left;
     padding: 5px;
     padding-right: 1rem;
