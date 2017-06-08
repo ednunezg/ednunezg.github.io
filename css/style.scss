@@ -787,7 +787,6 @@ pre {
     float: right;
     list-style: none;
     padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
 
 
     .project-tag{
@@ -808,6 +807,7 @@ pre {
 
       /* Space between tags */
       margin-left: 3px;
+      margin-bottom: 3px;
 
     }
 }
