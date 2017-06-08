@@ -274,6 +274,10 @@ pre {
   font-weight: 300;
   padding-top: 2em;
   padding-bottom: 2em; }
+  @media screen and (max-width: 600px) {
+    .site-navigation {
+      /* ADDED: allows elements to be displayed better on mobile */
+      font-size: 11px; } }
 
 .page-title {
   text-transform: uppercase;
@@ -308,8 +312,7 @@ pre {
     border-radius: 5px;
     text-align: right; }
     .site-nav .menu-icon {
-      display: inline-block;
-      /* Trying this out for mobile */
+      display: block;
       float: right;
       width: 36px;
       height: 26px;
