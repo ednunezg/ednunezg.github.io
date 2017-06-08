@@ -308,7 +308,8 @@ pre {
     border-radius: 5px;
     text-align: right; }
     .site-nav .menu-icon {
-      display: block;
+      display: inline-block;
+      /* Trying this out for mobile */
       float: right;
       width: 36px;
       height: 26px;
@@ -519,7 +520,7 @@ pre {
   @media screen and (max-width: 600px) {
     .project {
       width: 320px;
-      height: 800px; } }
+      height: 550px; } }
 
 .project-title {
   padding-bottom: 5px; }
@@ -550,7 +551,7 @@ pre {
   @media screen and (max-width: 600px) {
     .miniproject {
       width: 320px;
-      height: 500px; } }
+      height: 400px; } }
 
 .project-image {
   width: 32%;
@@ -579,7 +580,7 @@ pre {
   list-style: none;
   padding-top: 0.2rem; }
   .project-tags .project-tag {
-    display: inline;
+    display: inline-block;
     /* Tag rounded edges */
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

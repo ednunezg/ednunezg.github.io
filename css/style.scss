@@ -445,7 +445,7 @@ pre {
     border-radius: 5px;
     text-align: right;
     .menu-icon {
-      display: block;
+      display: inline-block; /* Trying this out for mobile */
       float: right;
       width: 36px;
       height: 26px;
@@ -695,7 +695,7 @@ pre {
 
     @include media-query($on-palm) {
         width:320px;
-        height: 800px;
+        height: 550px;
 
     }
 
@@ -744,7 +744,7 @@ pre {
 
        @include media-query($on-palm) {
         width:320px;
-        height: 500px;
+        height: 400px;
     }
 
 
@@ -782,7 +782,7 @@ pre {
     padding-top: 0.2rem;
 
     .project-tag{
-      display: inline;
+      display: inline-block;
 
       /* Tag rounded edges */
       -webkit-border-radius: 5px;
