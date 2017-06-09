@@ -6,7 +6,7 @@ categories: ["Running"]
 author: "Eduardo Nunez"
 ---
 
-![Sunrise finishing up second loop](/posts-photos/2017-04-10-zumbro50/zumbro1.jpg){:class="img-responsive"}{:height="500px"} 
+![Post Photo](/posts-photos/2017-04-10-zumbro50/zumbro1.jpg){:class="img-responsive"}{:height="500px"} 
 {: style="text-align: center;"}
 
 
@@ -44,7 +44,7 @@ During this loop, I was in a really bad place, mentally and physically. What in 
 
 # Third loop
 
-![Race start](/posts-photos/2017-04-10-zumbro50/zumbro3.jpg){:class="img-responsive"}{:height="300px"} 
+![Sunrise finishing up second loop](/posts-photos/2017-04-10-zumbro50/zumbro3.jpg){:class="img-responsive"}{:height="300px"} 
 
 I have no idea how things started to get better. It's as if I just got a sudden burst of inspiration and I wasn't thinking about the pain anymore. Just getting into a state of flow and being happy that I was doing this.
 

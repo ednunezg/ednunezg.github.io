@@ -10,7 +10,40 @@ order: 1
 <div class="projects">
 
 
-<!-- Looper pedal -->
+<!-- Strava -->
+
+<div class="project">
+
+	<div class="project-image">
+		<img src="{{ site.url }}/assets/projects/fkt-setter.png">
+	</div>
+
+	<div class="project-body">
+	  
+	  <div class="project-title"> <h2>FKT Setter: A GPS logger for iOS</h2> <div class="date">2017/05</div> <br> </div>
+	  
+	  <div class="project-info">
+      <p> Simple, but beautiful, single page training log viewer for Strava users. Imports workouts via Strava's REST API and presents log to users without any social media / activity feed clutter. Intended to be used as a browser home screen via a <a href="">Chrome Extension</a>. </p>
+	  </div>
+
+	  <div class="project-links">
+	  <a href="https://checkout.ewb-umn.org"><i class="fa fa-external-link"></i> Link</a><br>
+	  <a href="https://github.com/eddypuffs/Speech_Analytics_App"><i class="fa fa-github"></i> Source Code</a>
+	  </div>
+
+	  <ul class="project-tags">
+	  	<li class="project-tag">Swift</li>
+	  	<li class="project-tag">Node.js</li>
+	  	<li class="project-tag">MongoDB</li>
+	  	<li class="project-tag">REST API</li>
+	  </ul>
+
+	</div>
+</div>
+<br>
+
+
+<!-- Strava -->
 
 <div class="project">
 
@@ -145,10 +178,10 @@ order: 1
 
 	<div class="project-body">
 	  
-	  <div class="project-title"> <h2>Self navigating robot in 2D space</h2> <div class="date">2015/03</div> <br> </div>
+	  <div class="project-title"> <h2>Self navigating robot</h2> <div class="date">2015/03</div> <br> </div>
 	  
 	  <div class="project-info">
-      <p> Created prototype for a self navigating mobile robot to research portable and affordable solutions to CNC Mills. Future prototypes will include mounted drawing device. System relies on Arduino board, Zigbee communication, robot localization methods, and PID control.</p>
+      <p> Created prototype for a robot that autonomously navigates in 2D space to research portable and affordable solutions to CNC Mills. Future prototypes will include mounted drawing device. System relies on Arduino board, Zigbee communication, robot localization methods, and PID control.</p>
 	  </div>
 
 	  <div class="project-links">
