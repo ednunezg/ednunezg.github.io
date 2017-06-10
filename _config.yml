@@ -8,7 +8,7 @@
 # Site settings
 title: Ed Nunez
 email: nunez087@umn.com
-description: software engineer by day . runner by night . amateur musician whatever time is left
+description: software developer by day . runner by night . amateur musician whatever time is left
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eddypuffs.github.io" # the base hostname & protocol for your site
 twitter_username: 
