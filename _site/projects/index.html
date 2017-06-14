@@ -129,7 +129,7 @@
 <script type="text/javascript" src="/js/common.js"></script>
 
 <script>
-	
+
 	//1. Open the projects JSON file
 	
 	var projects = [];
@@ -150,7 +150,7 @@
 		for (var i = 0; i < projects.length; i++) {
 			
 
-			//Check if hidden
+			//Check if hidden. NOTE: A non existent (null) hidden property is interpreted as false
 
 			if(projects[i].hidden == "true") continue;
 
@@ -166,7 +166,6 @@
 			
 
 			//Create HTML structure for the project div
-
 			var imageDiv = newDiv.appendChild(document.createElement("div"));
 			imageDiv.className = "project-image";
 

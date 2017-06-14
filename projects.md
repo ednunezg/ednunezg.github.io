@@ -12,7 +12,7 @@ order: 1
 
 <br>	
 <div class="projects" id="projects">
-<p> More projects available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> site! </p>
+<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> page! </p>
 </div>
 
 
@@ -21,7 +21,7 @@ order: 1
 
 
 <script>
-	
+
 	//1. Open the projects JSON file
 	
 	var projects = [];
@@ -42,7 +42,7 @@ order: 1
 		for (var i = 0; i < projects.length; i++) {
 			
 
-			//Check if hidden
+			//Check if hidden. NOTE: A non existent (null) hidden property is interpreted as false
 
 			if(projects[i].hidden == "true") continue;
 
@@ -58,7 +58,6 @@ order: 1
 			
 
 			//Create HTML structure for the project div
-
 			var imageDiv = newDiv.appendChild(document.createElement("div"));
 			imageDiv.className = "project-image";
 
