@@ -54,7 +54,7 @@ order: 4
 	</details>
 
 	<br>
-	 <img src="{{ site.url }}/assets/icon_strava.png" width="32px"> <a href="https://www.strava.com/athletes/19002578"> Follow me on Strava</a>
+	  <img src="{{ site.url }}/assets/icon_strava.png" width="26px"> Follow me on <a href="https://www.strava.com/athletes/19002578"> Strava</a>
 
 </div>
 
