@@ -20,14 +20,14 @@ order: 4
 
 <p>I kinda suck at running, but it shapes a significant part of who I am and what I do in my free time. I love to go on long trail runs as means to achieve ultimate consciousness of my natural surroundings. It's my vehicle for finding inner peace and overcoming my existential dread. </p>
 
-<h4>2017 Race calendar: </h4>
+<h4 style="text-decoration: underline">2017 Race calendar: </h4>
 		<ul>
 		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a> --- <a href="/running/2017/04/10/zumbro50.html">Race report</a></li>
 		<li>July 29 - <a href="http://www.voyageur50.com/"> Voyageur 50 Mile</a></li>
 		<li>Sep 16 - <a href="https://www.thenorthface.com/get-outdoors/endurance-challenge/wisconsin.html"> Wisconsin North Face Endurance Challenge 50 Mile</a></li>
 		</ul>
 
-<h4>Past Races: </h4>
+<h4 style="text-decoration: underline">Past Races: </h4>
 
 	<details>
 	  <summary>2016</summary>
