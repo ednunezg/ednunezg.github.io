@@ -847,10 +847,15 @@ pre {
   }
 
   h4 {
-      font-size: 16px;
-      letter-spacing: 1px;
-      text-indent: 2px;
-      padding-top:0.5em;
+
+      font-size: 18px;
+      text-decoration: underline;
+      padding-right:1em;
+  }
+
+  h5 {
+    padding-left: 0rem;
+    font-size: 14px;
 
   }
 
@@ -873,8 +878,12 @@ pre {
     font-weight: 400;
   }
   .a:hover{
-      border-bottom: 1px dotted black ;
-    }
+      border-bottom: 1px dotted black;
+  }
+
+  .showpast:hover{
+    border-bottom: 1px dotted #777;
+  }
 
 
 }
@@ -883,22 +892,11 @@ pre {
 
 }
 
-.racing-report {
-  p {
-    font-size: 1rem;
-  }
-  a {
-    font-weight: 400;
-  }
-  .a:hover{
-      border-bottom: 1px dotted black ;
-    }
-
-}
-
 .outside-adventures {
 
 }
+
+
 
 
 
