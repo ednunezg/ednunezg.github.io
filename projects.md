@@ -12,7 +12,7 @@ order: 1
 
 <br>	
 <div class="projects" id="projects">
-<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> page! </p>
+<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/ednunezg">Github</a> page! </p>
 </div>
 
 
