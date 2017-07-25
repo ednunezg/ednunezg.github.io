@@ -68,7 +68,6 @@ order: 4
 
 	<h4>Upcoming Trips</h4>
 		<ul>
-		<li>July 2017 - Colorado Trail Thru Hike</li>
 		<li>Aug 2017 - Superior Hiking Trail Thru Hike</li>
 		</ul>
 
@@ -76,6 +75,7 @@ order: 4
 
 	<h5>2017</h5>
 		<ul>
+		<li>July 2017 - <a href="/adventures/2017/07/24/ColoradoTrail.html">Colorado Trail Thru Hike</a></li>
 		<li>March 2017 - <a href="/adventures/2017/03/23/SkyeTrail.html">Scotland's Skye Trail - Portree to Duntulm</a></li>
 		</ul>
 

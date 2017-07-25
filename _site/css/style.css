@@ -621,10 +621,12 @@ pre {
     text-indent: 2px;
     padding-top: 0.5em; }
   .outside h4 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-indent: 2px;
-    padding-top: 0.5em; }
+    font-size: 1rem;
+    text-decoration: underline;
+    padding-right: 1em; }
+  .outside h5 {
+    padding-left: 0rem;
+    font-size: 14px; }
   .outside ul {
     padding-left: 1rem;
     list-style-type: none;
@@ -637,13 +639,8 @@ pre {
     font-weight: 400; }
   .outside .a:hover {
     border-bottom: 1px dotted black; }
-
-.racing-report p {
-  font-size: 1rem; }
-.racing-report a {
-  font-weight: 400; }
-.racing-report .a:hover {
-  border-bottom: 1px dotted black; }
+  .outside .showpast:hover {
+    border-bottom: 1px dotted #777; }
 
 /**
  * Syntax highlighting styles
