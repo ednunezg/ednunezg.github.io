@@ -90,6 +90,11 @@ order: 1
 			if(projects[i].links.main != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.main+'><i class="fa fa-external-link"></i> Link</a><br>';
 			}
+			
+			if(projects[i].links.demo != null){
+				linksDiv.innerHTML += '<a href='+projects[i].links.demo+'><i class="fa fa-external-link"></i> Demo</a><br>';
+			}
+
 			if(projects[i].links.moreinfo != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.moreinfo+'><i class="fa fa-info-circle"></i> More info</a><br>';
 			}
