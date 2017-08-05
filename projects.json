@@ -8,7 +8,7 @@
 
 		"image":"/assets/projects/fkt-setter.png",
 
-		"info":"[Insert GPS logger info here]                                                                                                                                                                                                       ",
+		"info":"[Insert GPS logger info here]",
 
 		"links":{
 			"main":null,
@@ -146,7 +146,7 @@
 
 		"image":"/assets/projects/ewb.jpg",
 
-		"info":"My first hands-on software project. Made a dynamic website from scratch that allows members of EWB UMN reserve and checkout items from a catalog.",
+		"info":"My first hands-on software project. Made a dynamic website from scratch that allows EWB UMN members to reserve and checkout items from a catalog.",
 
 		"links":{
 			"main":"http://checkout.ewb-umn.org",
