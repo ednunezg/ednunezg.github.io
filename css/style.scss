@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -314,9 +314,10 @@ pre {
   text-transform: uppercase;
 }
 .about-me {
-  padding-left: 1em;
-  padding-right: 1em;
-  font-size: 1.3rem;
+  text-align: justify;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 22px;
   font-family: "Source Sans Pro";
   font-weight: 300;
   a {
@@ -379,10 +380,10 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'PT Sans';
+  font-family: 'Source Sans Pro';
   text-transform: capitalize;
-  font-weight: 500;
-  margin-top: 0.5em; /* Changed */
+  font-weight: 300;
+  margin-top: 10px; /* Changed */
   &,
   &:visited {
     color: $grey-color-dark;
@@ -500,7 +501,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: "PT Sans";
+  font-family: "Source Sans Pro";
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -592,7 +593,7 @@ pre {
 }
 .post-content {
   margin-bottom: $spacing-unit;
-  padding-bottom: 1em !important;
+  padding-bottom: 2em !important;
   p {
     font-size: 1.2rem;
   }
@@ -694,7 +695,7 @@ pre {
 
 .project {
   width:720px;
-  height:230px;
+  height:240px;
   border:1px solid #c9c9c9;
 
 
@@ -736,9 +737,9 @@ pre {
   padding-bottom: 5px;
 
   h2 {
-    font-size: 20px;
+    font-size: 22px;
     @include media-query($on-laptop) {
-      font-size: 16px;
+      font-size: 18px;
     }
     display:inline
   }
@@ -820,6 +821,7 @@ pre {
 }
 
 .projects-bottom {
+  
   text-align: center;
 }
 
