@@ -6,19 +6,16 @@ tagline: "a portfolio of my most singificant tech projects"
 order: 1
 ---
 
-
-
-
-
-<br>	
 <div class="projects" id="projects">
-<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/ednunezg">Github</a> page! </p>
+
+</div>
+
+<div class="projects-bottom">
+	<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/ednunezg">Github</a> page! </p>
 </div>
 
 
-
 <script type="text/javascript" src="/js/common.js"></script>
-
 
 <script>
 
@@ -38,7 +35,7 @@ order: 1
 		console.log(projects);
 
 		var projectsDiv = document.getElementById('projects');
-
+		
 		for (var i = 0; i < projects.length; i++) {
 			
 
@@ -110,8 +107,7 @@ order: 1
 
 
 			projectsDiv.appendChild(document.createElement('br'));
-			
-
+		
 		}
 
 	}

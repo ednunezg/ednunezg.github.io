@@ -8,7 +8,7 @@
 
 		"image":"/assets/projects/fkt-setter.png",
 
-		"info":"[Insert GPS logger info here]                                                                                                                                                                                                       ",
+		"info":"[Insert GPS logger info here]",
 
 		"links":{
 			"main":null,
@@ -21,21 +21,22 @@
 
 
 	{
-		"title":"Stravaganza: Training log viewer",
+		"title":"Training log viewer for runners and cyclists",
 
-		"date":"2017/05",
+		"date":"2017/06",
 
 		"image":"/assets/projects/strava.png",
 
-		"info":"Simple, but beautiful, single page training log viewer for Strava users. Imports workouts via Strava's API and presents log to users without any social media / activity feed clutter. Intended to be used as a browser home screen via a <a href=''>Chrome Extension</a>.",
+		"info":"Simple, but beautiful, single page training log viewer for Strava users, bypassing social media clutter on Strava's website. Imports workouts via Strava's API and presents log with a calendar-like view.  Intended to be primarily used as a 'new tab' page.",
 
 		"links":{
 			"main":null,
 			"moreinfo":null,
+			"demo":"https://stravalogdemo.herokuapp.com",
 			"source":"https://github.com/ednunezg/StravaLog"
 		},
 
-		"tags":["JavaScript","jQuery","ReactJS"]
+		"tags":["Node.js","JavaScript","jQuery"]
 	},
 
 	{
@@ -145,7 +146,7 @@
 
 		"image":"/assets/projects/ewb.jpg",
 
-		"info":"My first hands-on software project. Made a dynamic website from scratch that allows members of EWB UMN reserve and checkout items from a catalog.",
+		"info":"My first hands-on software project. Made a dynamic website from scratch that allows EWB UMN members to reserve and checkout items from a catalog.",
 
 		"links":{
 			"main":"http://checkout.ewb-umn.org",
@@ -155,7 +156,7 @@
 			"source":"https://github.com/eddypuffs/checkout.ewb-umn.org"
 		},
 
-		"tags":["PHP","mySQL"]
+		"tags":["PHP","Javascript","mySQL"]
 
 	}
 

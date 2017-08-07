@@ -213,7 +213,7 @@ pre {
   text-indent: 2px; }
 
 .postContent {
-  padding-top: 2em;
+  padding-bottom: 3em;
   text-align: left; }
 
 .postDate {
@@ -282,10 +282,10 @@ pre {
 
 .page-title {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-indent: 2px;
-  font-family: "PT Sans";
-  font-size: 12px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
   text-align: center; }
 
 .page-tagline {
@@ -440,7 +440,7 @@ pre {
 
 .post-content {
   margin-bottom: 30px;
-  padding-bottom: 3em !important; }
+  padding-bottom: 1em !important; }
   .post-content p {
     font-size: 1.2rem; }
   .post-content h2 {
@@ -508,15 +508,17 @@ pre {
 /*
  * ADDED: for project stuff
  */
-.projects p {
-  font-size: 1rem; }
-.projects strong {
-  font-weight: 400;
-  font-family: Arial; }
+.projects {
+  padding-top: 1em; }
+  .projects p {
+    font-size: 1rem; }
+  .projects strong {
+    font-weight: 400;
+    font-family: Arial; }
 
 .project {
   width: 720px;
-  height: 240px;
+  height: 230px;
   border: 1px solid #c9c9c9;
   transition: background 0.8s linear;
   -webkit-transition: background 0.8s linear;
@@ -541,11 +543,11 @@ pre {
 .project-title {
   padding-bottom: 5px; }
   .project-title h2 {
-    font-size: 22px;
+    font-size: 20px;
     display: inline; }
     @media screen and (max-width: 800px) {
       .project-title h2 {
-        font-size: 18px; } }
+        font-size: 16px; } }
   .project-title h2::after {
     content: "\00a0\00a0"; }
   .project-title .date {
@@ -599,6 +601,9 @@ pre {
     /* Space between tags */
     margin-left: 3px;
     margin-bottom: 5px; }
+
+.projects-bottom {
+  text-align: center; }
 
 .fa {
   font-size: 1.3rem; }

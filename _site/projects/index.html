@@ -121,9 +121,12 @@
   
 
   <div class="post-content">
-    <p><br /></p>
-<div class="projects" id="projects">
-<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/eddypuffs">Github</a> page! </p>
+    <div class="projects" id="projects">
+
+</div>
+
+<div class="projects-bottom">
+	<p> More available on my <a style="border-bottom: 1px dotted black;" href="http://www.github.com/ednunezg">Github</a> page! </p>
 </div>
 
 <script type="text/javascript" src="/js/common.js"></script>
@@ -146,7 +149,7 @@
 		console.log(projects);
 
 		var projectsDiv = document.getElementById('projects');
-
+		
 		for (var i = 0; i < projects.length; i++) {
 			
 
@@ -198,6 +201,11 @@
 			if(projects[i].links.main != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.main+'><i class="fa fa-external-link"></i> Link</a><br>';
 			}
+			
+			if(projects[i].links.demo != null){
+				linksDiv.innerHTML += '<a href='+projects[i].links.demo+'><i class="fa fa-external-link"></i> Demo</a><br>';
+			}
+
 			if(projects[i].links.moreinfo != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.moreinfo+'><i class="fa fa-info-circle"></i> More info</a><br>';
 			}
@@ -213,8 +221,7 @@
 
 
 			projectsDiv.appendChild(document.createElement('br'));
-			
-
+		
 		}
 
 	}

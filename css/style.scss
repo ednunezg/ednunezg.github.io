@@ -344,7 +344,7 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-  padding-top: 2em;
+  padding-bottom: 3em;
   text-align: left;
 }
 .postDate {
@@ -416,10 +416,10 @@ pre {
 }
 .page-title {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-indent: 2px;
-  font-family: "PT Sans";
-  font-size: 12px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
   text-align:center;
 }
 .page-tagline {
@@ -592,7 +592,7 @@ pre {
 }
 .post-content {
   margin-bottom: $spacing-unit;
-  padding-bottom: 3em !important;
+  padding-bottom: 1em !important;
   p {
     font-size: 1.2rem;
   }
@@ -688,11 +688,13 @@ pre {
     font-family:Arial
   }
 
+  padding-top: 1em;
+
 }
 
 .project {
   width:720px;
-  height:240px;
+  height:230px;
   border:1px solid #c9c9c9;
 
 
@@ -734,9 +736,9 @@ pre {
   padding-bottom: 5px;
 
   h2 {
-    font-size: 22px;
+    font-size: 20px;
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: 16px;
     }
     display:inline
   }
@@ -815,6 +817,10 @@ pre {
       margin-bottom: 5px;
 
     }
+}
+
+.projects-bottom {
+  text-align: center;
 }
 
 .fa{
