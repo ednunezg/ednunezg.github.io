@@ -317,9 +317,9 @@ pre {
   text-align: justify;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 22px;
+  font-size: 20px;
   @include media-query($on-laptop) {
-    font-size: 20px;
+    font-size: 18px;
   }
   @include media-query($on-palm) {
     font-size: 16px;
@@ -865,7 +865,7 @@ pre {
 .outside {
 
   padding-top: 1rem;
-  font-size: 1em;
+  font-size: 18px;
 
   h3 {
       font-family: "Helvetica Neue";
@@ -884,11 +884,12 @@ pre {
     }
   
   h5 {
-      font-size: 1em;
+      font-size: 20px;
   }
 
   p {
     text-align: justify;
+    font-size: 18px;
   }
 
 

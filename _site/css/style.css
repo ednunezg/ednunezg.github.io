@@ -188,13 +188,13 @@ pre {
   text-align: justify;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Source Sans Pro";
   font-weight: 300;
   line-height: 150%; }
   @media screen and (max-width: 800px) {
     .about-me {
-      font-size: 20px; } }
+      font-size: 18px; } }
   @media screen and (max-width: 600px) {
     .about-me {
       font-size: 16px; } }
@@ -638,7 +638,7 @@ pre {
  */
 .outside {
   padding-top: 1rem;
-  font-size: 1em; }
+  font-size: 18px; }
   .outside h3 {
     font-family: "Helvetica Neue";
     text-transform: uppercase;
@@ -652,9 +652,10 @@ pre {
     border-bottom: 1px solid black;
     margin-bottom: 1em; }
   .outside h5 {
-    font-size: 1em; }
+    font-size: 20px; }
   .outside p {
-    text-align: justify; }
+    text-align: justify;
+    font-size: 18px; }
   .outside ul {
     padding-left: 1rem;
     list-style-type: none; }
