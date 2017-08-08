@@ -649,10 +649,11 @@ pre {
     font-weight: 300;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px dashed black;
     margin-bottom: 1em; }
   .outside h5 {
-    font-size: 20px; }
+    font-size: 18px;
+    font-weight: 100; }
   .outside p {
     text-align: justify;
     font-size: 18px; }
