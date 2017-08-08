@@ -239,6 +239,7 @@ pre {
   float: right; }
 
 .postTitle {
+  font-family: "Helvetica Neue";
   font-weight: 400;
   text-align: left;
   text-transform: uppercase;
@@ -442,8 +443,8 @@ pre {
 .post-title {
   font-size: 36px;
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900; }
+  font-family: "Source Sans Pro";
+  font-weight: 400; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
@@ -639,6 +640,7 @@ pre {
   padding-top: 1rem;
   font-size: 1em; }
   .outside h3 {
+    font-family: "Helvetica Neue";
     text-transform: uppercase;
     letter-spacing: 4px;
     text-indent: 2px;

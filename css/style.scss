@@ -372,6 +372,7 @@ pre {
   float: right;
 }
 .postTitle {
+  font-family: "Helvetica Neue";
   font-weight: 400;
   text-align: left;
   text-transform: uppercase;
@@ -594,10 +595,9 @@ pre {
 }
 .post-title {
   font-size: 36px;
-
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
