@@ -317,12 +317,16 @@ pre {
   text-align: justify;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Source Sans Pro";
-  font-weight: 300;
+  font-weight: 200;
   a {
     font-weight: 400; 
   }
+  p{
+    padding-bottom:0.5em;
+  }
+  line-height:150%;
 
 }
 .archiveIntro {
