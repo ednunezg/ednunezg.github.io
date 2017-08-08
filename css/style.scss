@@ -865,33 +865,28 @@ pre {
 .outside {
 
   padding-top: 1rem;
+  font-size: 1em;
 
   h3 {
       text-transform: uppercase;
-      font-size: 24px;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
       text-indent: 2px;
-      padding-top:0.5em;
-
+      font-weight: 300;
   }
 
   h4 {
-
-      font-size: 1rem;
+      font-weight: 300;
       text-decoration: underline;
-      padding-right:1em;
   }
 
-  h5 {
-    padding-left: 0rem;
-    font-size: 14px;
-
+  p {
+    text-align: justify;
   }
+
 
   ul {
     padding-left: 1rem;
     list-style-type: none;
-    font-size: 16px;
 
   }
 
@@ -899,13 +894,10 @@ pre {
        margin:0 0 10px 0;   
   }
 
-
-  p {
-    font-size: 1rem;
-  }
   a {
     font-weight: 400;
   }
+  
   .a:hover{
       border-bottom: 1px dotted black;
   }
@@ -914,14 +906,6 @@ pre {
     border-bottom: 1px dotted #777;
   }
 
-
-}
-
-.outside-racing {
-
-}
-
-.outside-adventures {
 
 }
 

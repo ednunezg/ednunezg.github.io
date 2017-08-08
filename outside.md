@@ -6,14 +6,12 @@ tagline: "putting one foot in front of the other"
 order: 4
 ---
 
-
-
 <div class="outside">
 
 <div style="text-align: center;"><img src="{{ site.url }}/assets/nature-cover.jpg" width="700" alt="image"></div><br>
 
 
-<h3> Running </h3>
+<center><h3> Running </h3></center>
 
 
 <div class="outside-racing">
@@ -30,7 +28,7 @@ order: 4
 
 		<br>
 
-<h4 style="display:inline"> Past Races </h4><small style="color:#666;display:inline" class="showpast" id="showpast">[ Show/Hide ]</small>
+<h4 style="display:inline"> Past Races</h4>&nbsp;&nbsp;<small style="color:#666;display:inline" class="showpast" id="showpast">[ Show/Hide ]</small>
 <br style="clear:both" /><br>
 
 
@@ -59,11 +57,11 @@ order: 4
 <hr>
 <br>
 
-<h3> Adventures </h3>
+<center><h3> Adventures </h3></center>
 
 
 <div class="outside-adventures">
-	<p> I am fascinated with long distance, self-powered travel. To me, nothing feels more liberating than having the freedom to walk for days with everything you need only in your backpack. I have been doing long distance overnight hikes since my second year of college, and hope to be able to do a Pacific Crest Trail thru-hike someday. </p>
+	<p> I am fascinated with long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and the liberating feeling one gets walking for days at a time. I practice an ultralight approach to backpacking, helping me push high mileage comfortably. </p>
 	
 
 	<h4>Upcoming Trips</h4>

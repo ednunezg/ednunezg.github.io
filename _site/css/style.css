@@ -636,28 +636,23 @@ pre {
  * ADDED: for OUTSIDE page
  */
 .outside {
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  font-size: 1em; }
   .outside h3 {
     text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-indent: 2px;
-    padding-top: 0.5em; }
+    font-weight: 300; }
   .outside h4 {
-    font-size: 1rem;
-    text-decoration: underline;
-    padding-right: 1em; }
-  .outside h5 {
-    padding-left: 0rem;
-    font-size: 14px; }
+    font-weight: 300;
+    text-decoration: underline; }
+  .outside p {
+    text-align: justify; }
   .outside ul {
     padding-left: 1rem;
-    list-style-type: none;
-    font-size: 16px; }
+    list-style-type: none; }
   .outside li {
     margin: 0 0 10px 0; }
-  .outside p {
-    font-size: 1rem; }
   .outside a {
     font-weight: 400; }
   .outside .a:hover {

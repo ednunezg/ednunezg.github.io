@@ -40,7 +40,7 @@
 	},
 
 	{
-		"title":"Speech Analytics iOS App",
+		"title":"Speech Analytics iOS app",
 
 		"date":"2017/04",
 
@@ -59,13 +59,13 @@
 
 
 	{
-		"title":"Chat Server and Client",
+		"title":"Chatroom Server and Client",
 
 		"date":"2017/02",
 
 		"image":"/assets/projects/chat.jpg",
 
-		"info":"For my computer networks course, I developed a chat server and chat client programs in Java. Special features include a user registration system and P2P file sharing between clients.",
+		"info":"For my computer networks course, I developed chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
 
 		"links":{
 			"main":null,
