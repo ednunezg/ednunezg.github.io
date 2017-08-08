@@ -18,7 +18,7 @@ order: 4
 
 <p>I kinda suck at running, but it shapes a significant part of who I am and what I do in my free time. I love to go on long trail runs as means to achieve ultimate consciousness of my natural surroundings. It's my vehicle for finding inner peace and overcoming my existential dread. </p>
 
-<h4>2017 Race Calendar </h4>
+<h4>2017 Race Calendar</h4>
 
 		<ul>
 		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a> --- <a href="/running/2017/04/10/zumbro50.html">Race report</a> </li>

@@ -647,7 +647,12 @@ pre {
     font-weight: 300; }
   .outside h4 {
     font-weight: 300;
-    text-decoration: underline; }
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em; }
+  .outside h5 {
+    font-size: 1em; }
   .outside p {
     text-align: justify; }
   .outside ul {
