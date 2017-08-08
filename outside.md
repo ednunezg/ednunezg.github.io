@@ -11,7 +11,7 @@ order: 4
 <div style="text-align: center;"><img src="{{ site.url }}/assets/nature-cover.jpg" width="700" alt="image"></div><br>
 
 
-<center><h3> Running </h3></center>
+<h3> Running </h3>
 
 
 <div class="outside-racing">
@@ -57,7 +57,7 @@ order: 4
 <hr>
 <br>
 
-<center><h3> Adventures </h3></center>
+<h3> Adventures </h3>
 
 
 <div class="outside-adventures">

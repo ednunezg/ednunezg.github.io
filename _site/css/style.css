@@ -257,7 +257,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Source Sans Pro';
+  font-family: 'Helvetica Neue';
   text-transform: capitalize;
   font-weight: 300;
   margin-top: 10px;
@@ -281,7 +281,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 8px;
-  font-family: 'Josefin Sans';
+  font-family: 'Helvetica Neue';
   font-weight: 300;
   padding-top: 2em;
   padding-bottom: 2em; }
@@ -294,7 +294,7 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "Source Sans Pro";
+  font-family: "Helvetica Neue";
   font-size: 18px;
   text-align: center; }
 
