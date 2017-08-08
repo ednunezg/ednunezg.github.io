@@ -186,13 +186,22 @@ pre {
 
 .about-me {
   text-align: justify;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-size: 22px;
   font-family: "Source Sans Pro";
-  font-weight: 300; }
+  font-weight: 300;
+  line-height: 150%; }
+  @media screen and (max-width: 800px) {
+    .about-me {
+      font-size: 20px; } }
+  @media screen and (max-width: 600px) {
+    .about-me {
+      font-size: 16px; } }
   .about-me a {
-    font-weight: 400; }
+    font-weight: 500; }
+  .about-me p {
+    padding-bottom: 0.5em; }
 
 .archiveIntro {
   text-align: center; }
@@ -283,7 +292,7 @@ pre {
 
 .page-title {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-indent: 2px;
   font-family: "Source Sans Pro";
   font-size: 18px;
@@ -524,6 +533,10 @@ pre {
   transition: background 0.8s linear;
   -webkit-transition: background 0.8s linear;
   -moz-transition: background 0.8s linear; }
+  @media screen and (max-width: 800px) {
+    .project {
+      width: 500px;
+      height: 320px; } }
   @media screen and (max-width: 600px) {
     .project {
       width: 320px;
@@ -536,6 +549,10 @@ pre {
   transition: background 0.3s linear;
   -webkit-transition: background 0.3s linear;
   -moz-transition: background 0.3s linear; }
+  @media screen and (max-width: 800px) {
+    .miniproject {
+      width: 500px;
+      height: 280px; } }
   @media screen and (max-width: 600px) {
     .miniproject {
       width: 320px;

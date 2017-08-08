@@ -315,9 +315,16 @@ pre {
 }
 .about-me {
   text-align: justify;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  font-size: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 22px;
+  @include media-query($on-laptop) {
+    font-size: 20px;
+  }
+  @include media-query($on-palm) {
+    font-size: 16px;
+  }
+
   font-family: "Source Sans Pro";
   font-weight: 300;
   a {
@@ -421,7 +428,7 @@ pre {
 }
 .page-title {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-indent: 2px;
   font-family: "Source Sans Pro";
   font-size: 18px;
@@ -708,7 +715,12 @@ pre {
    transition: background 0.8s linear;
    -webkit-transition: background 0.8s linear;
    -moz-transition: background 0.8s linear;
-
+    
+   
+   @include media-query($on-laptop) {
+        width:500px;
+        height: 320px;
+       }
 
     @include media-query($on-palm) {
         width:320px;
@@ -727,6 +739,11 @@ pre {
     transition: background 0.3s linear;
    -webkit-transition: background 0.3s linear;
    -moz-transition: background 0.3s linear;
+
+       @include media-query($on-laptop) {
+        width:500px;
+        height: 280px;
+       }
 
        @include media-query($on-palm) {
         width:320px;
