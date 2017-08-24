@@ -354,7 +354,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px;
+  margin-left: 2em; }
 
 .footer-heading {
   font-size: 18px;
