@@ -6,10 +6,15 @@ categories: ["Adventures"]
 author: "Eduardo Nunez"
 ---
 
+<center>
+2 dudes <br>
+170 miles <br>
+14 days <br>
+</center>
+
 
 <div style="text-align: center;">
 
-View full album <strong><a href="https://photos.app.goo.gl/me7NaXLX6dPM1DMB2">here.</a></strong>
 <br><br>
 <a href='https://photos.google.com/share/AF1QipNKVO0DK07JnCox5i7SNapRY2HOYI0q8L0q6fWVRosq8oKfb9Tq_qNJwiM1OLeTjQ?key=TjJaV2JYYkxfRzhMcUQtb0g3T2FNdVNjVndoWmh3&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/l9RNI6MsArWDN18Shdl0n-JQAdWtin9QcvN1iWYhm_89k26LUvl7MEUAYkeOgaFmUJzpywoDUbsHr3g60QLfYMbOiHQiytbYi7gIR19qDqyPhk1DMBY0ji6teWHQ8j6gOoXq3ZFnHw' /></a>
 <br><br>
@@ -27,21 +32,14 @@ View full album <strong><a href="https://photos.app.goo.gl/me7NaXLX6dPM1DMB2">he
 <br><br>
 <a href='https://photos.google.com/share/AF1QipNvSw7R7Ez3Ct-dk6nLU1amyqOu3P1JGTOAeYgeMoZmM_SK9XWGu2PyVMlmzvWSYQ?key=bWsxZ0NZeDRSTE5KaWpVM1lSRXUyblg0aUhIMkJR&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/1TevYRUA-kiLOkdfGOFLrqN8carVBuh6HmCqXRZt4l0z0kfqNj2VKuNBfm1ofBdI3laP6oSIx2a7Tq-_hXexcTx7wLKX3gud5MmIlQorLad1M69fEkyaJF8CBZQtfmNy8ndKaEz-rQ' /></a>
 <br>
+View full album <strong><a href="https://photos.app.goo.gl/me7NaXLX6dPM1DMB2">here.</a></strong>
+<br><br>
 
 </div>
 
-<br>
-
-<center>
-2 dudes <br>
-170 miles <br>
-14 days <br>
-</center>
-
-<br> 
 The John Muir Trail was my very first thru hike. Prior to the trip I thought I had no idea what I was doing and planned the trip excessively: I picked out a camp site for every night, typed up all my meals typed up in a spreadsheet, and studied weather patterns across the Sierras. I'm happy I overprepared for this hike, because I learned a lot about what it takes to plan for a backcountry trip, but the moment I stepped my foot on trail I instantly became aware of the simplicity of the thru hiking life. I experienced what it was like living simply: just walking, eating, walking some more, and sleeping.
 
-<br>
+
+
 Choosing the John Muir Trail as my first long hike has spoiled me a lot. I don't think you could easily find a well established route that is this remote and so dense with beautiful mountains. Every single day on the Sierras was epic to say the least. For a friendly hike for all experience levels, I think this one's hard to top.
-<br>
 
