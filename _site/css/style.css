@@ -359,12 +359,8 @@ pre {
     width: 36px;
     height: 36px;
     vertical-align: middle; }
-    .footer-icon svg path {
-      fill: #828282; }
   .footer-icon a:hover {
     border-bottom: 0px; }
-    .footer-icon a:hover path {
-      fill: #000; }
 
 @media screen and (max-width: 800px) {
   .footer-col {
