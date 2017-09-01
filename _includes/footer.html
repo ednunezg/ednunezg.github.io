@@ -2,62 +2,46 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading small-site-title">{{ site.title }}</h2>
+        <div class="footer-icons">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list footer-content">
-          <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span style="color:black">{ { Jekyll } }</a></span></li>
+          {% if site.email %}
+            <span class="footer-icon">
+            {% include icon-email.html email=site.email %}
+            </span>
+          {% endif %}
 
-
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2 footer-content">
-        <ul class="social-media-list">
           {% if site.linkedin_username %}
-          <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
-          </li>
+          <span class="footer-icon">
+          {% include icon-linkedin.html username=site.linkedin_username %}
+          </span>
           {% endif %}
 
 
           {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
+          <span class="footer-icon">            
+          {% include icon-github.html username=site.github_username %}
+          </span>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li>
+            <span class="footer-icon">
             {% include icon-twitter.html username=site.twitter_username %}
-          </li>
+            </span>
           {% endif %}
 
           {% if site.facebook_username %}
-          <li>
+            <span class="footer-icon">
             {% include icon-facebook.html username=site.facebook_username %}
-          </li>
+            </span>
           {% endif %}
-
 
           {% if site.youtube_username %}
-          <li>
+            <span class="footer-icon">
             {% include icon-youtube.html username=site.youtube_username %}
-          </li>
+            </span>
           {% endif %}
 
-
-
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3 site-description">
-      <!-- <p>{{ site.description }}</p> -->
-      <p> Contact me: <a href="mailto:ed@ednunez.me">ed@ednunez.me</a> </p>
-      </div>
-    </div>
-
+        </div>
   </div>
 
 </footer>

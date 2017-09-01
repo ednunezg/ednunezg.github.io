@@ -17,6 +17,7 @@ facebook_username:  ednunezg
 linkedin_username:  ednunezg
 youtube_username:  
 
+
 paginate: 5
 
 gems: [jekyll-paginate, kramdown]
