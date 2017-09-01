@@ -159,7 +159,7 @@ pre {
   padding-top: 0; }
 
 .home {
-  padding-bottom: 1em; }
+  padding-bottom: 2em; }
 
 .download {
   padding: 10px; }
@@ -346,7 +346,11 @@ pre {
  * Site footer
  */
 .site-footer {
-  background-color: #f4f4f4;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  background-color: #EEEEEE;
   border-top: 1px solid #e8e8e8;
   padding: 15px;
   text-align: center; }
@@ -362,20 +366,12 @@ pre {
   .footer-icon a:hover {
     border-bottom: 0px; }
 
-@media screen and (max-width: 800px) {
-  .footer-col {
-    width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
 /**
  * Page content
  */
 .page-content {
-  padding: 0; }
+  padding: 0;
+  min-height: calc(100vh - 40px); }
 
 .page-heading {
   font-size: 20px; }

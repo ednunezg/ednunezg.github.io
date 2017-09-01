@@ -296,7 +296,7 @@ pre {
   padding-top: 0;
 }
 .home{
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 .download {
   padding: 10px;
@@ -502,7 +502,12 @@ pre {
  */
 
 .site-footer {
-  background-color:#f4f4f4;  
+  position: relative;
+  left:0;
+  bottom: 0;
+  height: 40px;
+
+  background-color:#EEEEEE;  
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit/2;
   text-align: center;
@@ -528,23 +533,17 @@ pre {
 }
 
 @include media-query($on-laptop) {
-  .footer-col {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width: calc(50% - (#{$spacing-unit} / 2));
-  }
+  
 }
 @include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width: calc(100% - (#{$spacing-unit} / 2));
-  }
+  
 }
 /**
  * Page content
  */
 .page-content {
   padding: 0;
+  min-height: calc(100vh - 40px);  
 }
 .page-heading {
   font-size: 20px;
