@@ -345,6 +345,14 @@ pre {
 /**
  * Site footer
  */
+.container {
+  min-height: calc(100vh - 40px);
+  margin-bottom: -40px; }
+
+.push {
+  height: 40px;
+  margin-bottom: -40px; }
+
 .site-footer {
   position: relative;
   left: 0;
@@ -370,8 +378,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 0;
-  min-height: calc(100vh - 40px); }
+  padding: 0; }
 
 .page-heading {
   font-size: 20px; }
