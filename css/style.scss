@@ -318,12 +318,6 @@ pre {
   padding-left: 1em;
   padding-right: 1em;
   font-size: 20px;
-  @include media-query($on-laptop) {
-    font-size: 18px;
-  }
-  @include media-query($on-palm) {
-    font-size: 16px;
-  }
 
   font-family: "Source Sans Pro";
   font-weight: 300;
