@@ -7,7 +7,7 @@ author: "Eduardo Nunez"
 ---
 
 
-With a 5 day window open during Thanksgiving break, I set out to hike a little loop in the Grand Canyon. The Grand Canyon is a great place during winter months.  All of the campsites were booked for the Rim to Rim trail, so I set out to do an alternative. 
+With a 5 day window open during Thanksgiving break, I set out to hike a little loop in the Grand Canyon. All of the campsites were booked for the Rim to Rim trail, so I set out to do an alternative. 
 
 The thirty-something mile loop I did started out in Hermit's rest, went down the canyon via the Boucher trail, traversed the canyon parallel to the Colorado River via the Tonto trail, and came back up via the Bright Angel trail. Highly recommend this as an alternative to R2R: very few people, amazing campsite at Yuma point, and beautiful side trips near the Colorado River.
 
