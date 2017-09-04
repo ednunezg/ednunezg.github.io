@@ -5,8 +5,8 @@
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 10:03:47 -0500</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 10:03:47 -0500</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2017 20:25:57 -0500</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 20:25:57 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -44,19 +44,6 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
         
         
         <category>Adventures</category>
-        
-      </item>
-    
-      <item>
-        <title>How I use technology to organize my life</title>
-        <description>
-</description>
-        <pubDate>Sun, 30 Apr 2017 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/tech/2017/04/30/tech-organize-my-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech/2017/04/30/tech-organize-my-life.html</guid>
-        
-        
-        <category>Tech</category>
         
       </item>
     
@@ -107,8 +94,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;p&gt;I was so shocked by how my mind felt so in control for the last part of the race. I felt so inspired running with other amazing people that while I was there I knew I wanted to do another ultra. I signed up for this year’s Voyageurs 50 mile race in July, and I might be doing the North Face Endurance Challenge in Wisconsin as well. Other plans include a section hike of the Colorado Trail in July and a Superior Hiking Trail thru hike in late August.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Apr 2017 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/running/2017/04/10/zumbro50.html</link>
-        <guid isPermaLink="true">http://localhost:4000/running/2017/04/10/zumbro50.html</guid>
+        <link>http://localhost:4000/running/2017/04/10/Zumbro50.html</link>
+        <guid isPermaLink="true">http://localhost:4000/running/2017/04/10/Zumbro50.html</guid>
         
         
         <category>Running</category>
@@ -155,8 +142,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 29 Nov 2016 08:15:31 -0600</pubDate>
-        <link>http://localhost:4000/adventures/2016/11/29/BoucherTontoBright.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2016/11/29/BoucherTontoBright.html</guid>
+        <link>http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</guid>
         
         
         <category>Adventures</category>
@@ -274,8 +261,8 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://photos.app.goo.gl/me7NaXL
 
 </description>
         <pubDate>Sun, 30 Aug 2015 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2015/08/30/john-muir-trail.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2015/08/30/john-muir-trail.html</guid>
+        <link>http://localhost:4000/adventures/2015/08/30/JMT.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2015/08/30/JMT.html</guid>
         
         
         <category>Adventures</category>
