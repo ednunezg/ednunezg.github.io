@@ -15,24 +15,19 @@ order: 1
 </div>
 
 
-<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/projects.js"></script>
 
 <script>
 
 	//1. Open the projects JSON file
 	
-	var projects = [];
-	loadJSON('../projects.json',
-	         function(data) { generateContent(data); },
-	         function(xhr) { console.error(xhr); }
-	);
-
+	var projects = window.projects_json;
+	generateContent(projects);
 
 	//2. Generate "project" divs inside "projects"
 
 
 	function generateContent(projects){
-		console.log(projects);
 
 		var projectsDiv = document.getElementById('projects');
 		

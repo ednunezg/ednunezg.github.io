@@ -1,4 +1,4 @@
-[
+var projects_json = [
 	{
 		"hidden":"true",
 
@@ -160,4 +160,6 @@
 
 	}
 
-]
+];
+
+window.projects_json = projects_json;
