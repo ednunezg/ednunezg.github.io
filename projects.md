@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-tagline: "a portfolio of my most singificant tech projects"
+tagline: "a portfolio of my most noteworthy tech projects"
 order: 1
 ---
 
