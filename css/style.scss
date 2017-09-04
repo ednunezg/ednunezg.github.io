@@ -540,10 +540,13 @@ pre {
   
 }
 @include media-query($on-palm) {    
+  margin-left:5px;
+  margin-right:5px;
+
   .footer-icon {    
     svg {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
       }
     }
 }
