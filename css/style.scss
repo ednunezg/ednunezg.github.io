@@ -497,8 +497,8 @@ pre {
  */
 
 .container {
-  min-height: calc(100vh - 40px);  
-  margin-bottom: -40px;  
+  min-height: calc(100vh - 36px);  
+  margin-bottom: -36px;  
 }
 
  .push {
@@ -518,13 +518,13 @@ pre {
 }
 
 .footer-icon {
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:6px;
+  margin-right:6px;
   
   svg {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     path { fill: $grey-color-dark; }
   }

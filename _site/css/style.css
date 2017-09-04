@@ -340,8 +340,8 @@ pre {
  * Site footer
  */
 .container {
-  min-height: calc(100vh - 40px);
-  margin-bottom: -40px; }
+  min-height: calc(100vh - 36px);
+  margin-bottom: -36px; }
 
 .push {
   height: 36px;
@@ -357,12 +357,12 @@ pre {
   text-align: center; }
 
 .footer-icon {
-  margin-left: 10px;
-  margin-right: 10px; }
+  margin-left: 6px;
+  margin-right: 6px; }
   .footer-icon svg {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle; }
     .footer-icon svg path {
       fill: #424242; }
@@ -372,9 +372,11 @@ pre {
       fill: #1B3FAE; }
 
 @media screen and (max-width: 600px) {
+  margin-left: 5px;
+  margin-right: 5px;
   .footer-icon svg {
-    width: 20px;
-    height: 20px; } }
+    width: 24px;
+    height: 24px; } }
 /**
  * Page content
  */
