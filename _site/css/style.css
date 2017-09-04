@@ -344,14 +344,14 @@ pre {
   margin-bottom: -40px; }
 
 .push {
-  height: 40px;
-  margin-bottom: -42px; }
+  height: 36px;
+  margin-bottom: -37px; }
 
 .site-footer {
   position: relative;
   left: 0;
   bottom: 0;
-  height: 40px;
+  height: 36px;
   border-top: 2px dashed #e8e8e8;
   padding: 15px;
   text-align: center; }
@@ -361,14 +361,20 @@ pre {
   margin-right: 10px; }
   .footer-icon svg {
     display: inline-block;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle; }
+    .footer-icon svg path {
+      fill: #424242; }
   .footer-icon a:hover {
     border-bottom: 0px; }
     .footer-icon a:hover path {
-      fill: #0032B0; }
+      fill: #1B3FAE; }
 
+@media screen and (max-width: 600px) {
+  .footer-icon svg {
+    width: 20px;
+    height: 20px; } }
 /**
  * Page content
  */
@@ -558,7 +564,7 @@ pre {
   font-size: 1rem;
   font-style: bold; }
   .project-links .a:hover {
-    color: #0032B0;
+    color: #1B3FAE;
     border-bottom: 1px dotted black; }
 
 .project-tags {

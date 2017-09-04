@@ -18,7 +18,7 @@ $text-color:       #000;
 $background-color: #ffffff; /* Changed from light gray */
 $brand-color:      #2a7ae2;
 
-$blue-color:      #0032B0;
+$blue-color:      #1B3FAE;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -502,15 +502,15 @@ pre {
 }
 
  .push {
-  height: 40px;
-  margin-bottom: -42px;
+  height: 36px;
+  margin-bottom: -37px;
  }
 
 .site-footer {
   position: relative;
   left:0;
   bottom: 0;
-  height: 40px;
+  height: 36px;
 
   border-top: 2px dashed $grey-color-light;
   padding: $spacing-unit/2;
@@ -523,10 +523,10 @@ pre {
   
   svg {
     display: inline-block;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
-    // path { fill: $grey-color; }
+    path { fill: $grey-color-dark; }
   }
 
   a:hover {
@@ -539,8 +539,13 @@ pre {
 @include media-query($on-laptop) {
   
 }
-@include media-query($on-palm) {
-  
+@include media-query($on-palm) {    
+  .footer-icon {    
+    svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
 }
 /**
  * Page content
