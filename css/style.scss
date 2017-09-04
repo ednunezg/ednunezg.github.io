@@ -18,6 +18,7 @@ $text-color:       #000;
 $background-color: #ffffff; /* Changed from light gray */
 $brand-color:      #2a7ae2;
 
+$blue-color:      #0032B0;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -322,7 +323,7 @@ pre {
   font-family: "Source Sans Pro";
   font-weight: 300;
   a {
-    font-weight: 500; 
+    font-weight: 500;
   }
   p{
     padding-bottom:0.5em;
@@ -502,7 +503,7 @@ pre {
 
  .push {
   height: 40px;
-  margin-bottom: -40px;
+  margin-bottom: -42px;
  }
 
 .site-footer {
@@ -511,7 +512,7 @@ pre {
   bottom: 0;
   height: 40px;
 
-  border-top: 2px solid $grey-color-light;
+  border-top: 2px dashed $grey-color-light;
   padding: $spacing-unit/2;
   text-align: center;
 }
@@ -530,7 +531,7 @@ pre {
 
   a:hover {
     border-bottom: 0px;
-    // path { fill: #000; }
+    path { fill: $blue-color; }
   }
 
 }
@@ -788,6 +789,7 @@ pre {
     font-size: 1rem;
     font-style: bold;
     .a:hover{
+        color: $blue-color;
         border-bottom: 1px dotted black ;
       }
 }

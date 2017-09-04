@@ -345,14 +345,14 @@ pre {
 
 .push {
   height: 40px;
-  margin-bottom: -40px; }
+  margin-bottom: -42px; }
 
 .site-footer {
   position: relative;
   left: 0;
   bottom: 0;
   height: 40px;
-  border-top: 2px solid #e8e8e8;
+  border-top: 2px dashed #e8e8e8;
   padding: 15px;
   text-align: center; }
 
@@ -366,6 +366,8 @@ pre {
     vertical-align: middle; }
   .footer-icon a:hover {
     border-bottom: 0px; }
+    .footer-icon a:hover path {
+      fill: #0032B0; }
 
 /**
  * Page content
@@ -556,6 +558,7 @@ pre {
   font-size: 1rem;
   font-style: bold; }
   .project-links .a:hover {
+    color: #0032B0;
     border-bottom: 1px dotted black; }
 
 .project-tags {
