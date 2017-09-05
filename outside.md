@@ -16,7 +16,7 @@ order: 4
 
 <div class="outside-racing">
 
-<p>I kinda suck at running, but it shapes a significant part of who I am and what I do in my free time. I love to go on long trail runs as means to achieve ultimate consciousness of my natural surroundings. It's my vehicle for finding inner peace and overcoming my existential dread. </p>
+<p>Long distance running shapes a significant part of who I am and what I do in my free time. I love to go on lengthy and wild trail runs as means to get ultimate consciousness of my natural surroundings. It's my vehicle for finding inner peace and overcoming my existential dread. </p>
 
 <h4>2017&nbsp; Race&nbsp; Calendar</h4>
 
