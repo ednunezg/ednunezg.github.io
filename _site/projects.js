@@ -1,5 +1,23 @@
 var projects_json = [
 	{
+		"title":"Todo list app with user authentication",
+
+		"date":"2017/08",
+
+		"image":"/assets/projects/todo.png",
+
+		"info":"Built this web app for the sole purpose of learning React.js and handling user authentication with Google and Facebook OAuth services.",
+
+		"links":{
+			"main":null,
+			"moreinfo":null,
+			"source":"https://github.com/ednunezg/react-todolist"
+		},
+
+		"tags":["React", "Flux", "Node.js","JavaScript","MongoDB"]
+	},
+
+	{
 		"hidden":"true",
 
 		"title":"FKT Setter: A GPS logger for iOS",
@@ -36,7 +54,7 @@ var projects_json = [
 			"source":"https://github.com/ednunezg/StravaLog"
 		},
 
-		"tags":["Node.js","express","JavaScript","jQuery"]
+		"tags":["Node.js","JavaScript","jQuery","REST API"]
 	},
 
 	{
