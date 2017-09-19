@@ -1,8 +1,0 @@
-BACKBURNER STUFF:
-	- Update profile picture with something more professional lookin
-	- Disqus for blog posts
-	- Github like visual "tags" for project page
-	- Make info page for robot project
-
-URGENT STUFF:
-	- Add date to projects
