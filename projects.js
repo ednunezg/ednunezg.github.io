@@ -6,7 +6,7 @@ var projects_json = [
 
 		"image":"/assets/projects/todo.png",
 
-		"info":"Built this web app for the sole purpose of learning React.js and handling user authentication with Google and Facebook OAuth services.",
+		"info":"Built this web app for the purposes of learning React and handling user authentication with Google and Facebook OAuth services. This will help facilitate coding an upcoming project that requires user authentication.",
 
 		"links":{
 			"main":null,
