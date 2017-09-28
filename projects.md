@@ -38,14 +38,11 @@ order: 1
 
 			if(projects[i].hidden == "true") continue;
 
-			//Determine the height of the project box
-
-			var projectType = (projects[i].info.length > 220) ? "project" : "miniproject";
 
 			//Create new project div
 
 			var newDiv = document.createElement('div');
-			newDiv.className = projectType;
+			newDiv.className = "project";
 			projectsDiv.appendChild(newDiv);
 			
 
@@ -55,6 +52,10 @@ order: 1
 
 			var bodyDiv = newDiv.appendChild(document.createElement("div"));
 			bodyDiv.className = "project-body";
+
+			var clearDiv = newDiv.appendChild(document.createElement("div"));
+			clearDiv.className = "clear:both";
+
 			
 			var titleDiv = bodyDiv.appendChild(document.createElement("div"));
 			titleDiv.className = "project-title";
