@@ -82,20 +82,21 @@ order: 4
 		<ul>
 		<li>May 2016 - <a href="/adventures/2016/05/31/GR20.html">Corsica's GR20</a></li>
 		<li>May 2016 - <a href="/adventures/2016/05/31/Iceland.html">Three days meandering in Iceland</a></li>
-		<li>Nov 2016 - <a href="/adventures/2016/11/29/BoucherTontoBright.html">Grand Canyon - Boucher-Tonto-Bright Angel Loop</a></li>
+		<li>Nov 2016 - <a href="/adventures/2016/11/29/GrandCanyon.html">Grand Canyon - Boucher-Tonto-Bright Angel Loop</a></li>
 		</ul>
 
 	<h5>2015</h5>
 		<ul>
-		<li>Aug 2015 - <a href="/adventures/2015/08/30/john-muir-trail.html">John Muir Trail - Red's Meadow to Mount Whitney</a></li>
+		<li>Aug 2015 - <a href="/adventures/2015/08/30/JMT.html">John Muir Trail - Red's Meadow to Mount Whitney</a></li>
 		</ul>
 
 	<br>
 
 </div>
-<hr>
+
 	<br>
-	<img src="{{ site.url }}/assets/icon_strava.png" width="26px"> Follow me on <a href="https://www.strava.com/athletes/19002578"> Strava</a>
+	
+	<center><img src="{{ site.url }}/assets/icon_strava.png" width="26px"> Follow me on <a href="https://www.strava.com/athletes/19002578"> Strava</a></center>
 
 </div>
 
