@@ -69,6 +69,7 @@ var projects_json = [
 		"links":{
 			"main":null,
 			"moreinfo":null,
+			"demo":"https://youtu.be/e7t3LG6ICfA",
 			"source":"https://github.com/eddypuffs/Speech_Analytics_App"
 		},
 
