@@ -83,7 +83,7 @@ var projects_json = [
 
 		"image":"/assets/projects/chat.jpg",
 
-		"info":"For my computer networks course, I developed chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
+		"info":"For my computer networks course, I developed a chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
 
 		"links":{
 			"main":null,
