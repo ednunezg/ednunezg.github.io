@@ -367,7 +367,7 @@ pre {
   float: right;
 }
 .postTitle {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica;
   font-weight: 400;
   text-align: left;
   text-transform: uppercase;
@@ -387,7 +387,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue', Helvetica;
   text-transform: capitalize;
   font-weight: 300;
   margin-top: 10px; /* Changed */
@@ -413,7 +413,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 8px;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue', Helvetica;
   font-weight: 300;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -427,7 +427,7 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica;
   font-size: 18px;
   text-align:center;
 }
@@ -849,7 +849,7 @@ pre {
   font-size: 18px;
 
   h3 {
-      font-family: "Helvetica Neue";
+      font-family: "Helvetica Neue", Helvetica;
       text-transform: uppercase;
       letter-spacing: 4px;
       text-indent: 2px;
