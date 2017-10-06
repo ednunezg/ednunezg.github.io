@@ -14,17 +14,16 @@
 	    --> <!-- CHANGED: REMOVED  HOME PAGE IN NAV BAR-->
 
 
-	    <a class="page-link" href="{{site.url}}{{site.baseurl}}">ABOUT</a>
-	    {% assign sorted_pages = site.pages | sort:"order" %}
-		{% for sitePage in sorted_pages %}
-			{% if sitePage.title %}
-				<span class="exclamationMark">|</span>
-				<a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
-			{% endif %}
-	    {% endfor %}
-
-
-
+	  <a class="page-link" href="{{site.url}}{{site.baseurl}}">ABOUT</a>
+		<span class="exclamationMark">|</span>		
+		<a class="page-link" href="{{site.url}}/projects">PROJECTS</a>
+		<span class="exclamationMark">|</span>		
+		<a class="page-link" href="{{site.url}}/resume">RESUME</a>
+		<span class="exclamationMark">|</span>		
+		<a class="page-link" href="{{site.url}}/blog">BLOG</a>
+		<span class="exclamationMark">|</span>		
+		<a class="page-link" href="{{site.url}}/outside">ED&nbsp;GOES&nbsp;OUTSIDE</a>
+		
 	    <!--
 	   	{% for sitePage in site.pages %}
 	    {% if sitePage.title %}

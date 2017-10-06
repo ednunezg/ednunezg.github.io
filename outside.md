@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ed&nbsp;Goes&nbsp;Outside
+title: Ed Goes Outside
 permalink: /outside/
 tagline: "putting one foot in front of the other"
 order: 4
