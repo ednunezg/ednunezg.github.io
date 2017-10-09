@@ -16,7 +16,9 @@ order: 4
 
 <div class="outside-racing">
 
-<p>Long distance running shapes a significant part of who I am and what I do in my free time. I love to go on lengthy and wild trail runs as means to get ultimate consciousness of my natural surroundings. It's my vehicle for finding inner peace and overcoming my existential dread. </p>
+<p>
+Long distance running shapes a significant part of who I am and what I do in my free time. Somewhat recently I've been making the progression from road running to longer and wilder trail running. Ultra/mountain/trail running isn't just a sport I love for its meditative and physically challenging aspect, it is also an ideal way for me to go out in nature without having to go backpacking overnight.
+</p>
 
 <h4>2017&nbsp;Race&nbsp;Calendar</h4>
 
@@ -111,11 +113,5 @@ order: 4
 	        pastraces.style.display = 'none';
 	    }
 	}
-
-	// Run when Page is ready
-	window.onload=function(){
-		console.log("Hello world");
-	    document.getElementById('showpast').addEventListener('click',togglePastRaces,false);
-    }
 
 </script>
