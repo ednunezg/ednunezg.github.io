@@ -102,19 +102,6 @@ Long distance running shapes a significant part of who I am and what I do in my 
 
 </div>
 
-<script>
-
-	function togglePastRaces(){
-	    var pastraces=document.getElementById('past-races');
-
-	    if (pastraces.style.display === 'none') {
-	        pastraces.style.display = 'block';
-	    } else {
-	        pastraces.style.display = 'none';
-	    }
-	}
-
-</script>
 
 <script>
 	function togglePastRaces(){
