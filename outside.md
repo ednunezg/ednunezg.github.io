@@ -115,3 +115,14 @@ Long distance running shapes a significant part of who I am and what I do in my 
 	}
 
 </script>
+
+<script>
+	function togglePastRaces(){
+		var pastraces=document.getElementById('past-races');
+		if (pastraces.style.display === 'none')	{ pastraces.style.display = 'block'; }
+		else { pastraces.style.display = 'none'; }
+		} // Run when Page is ready
+		window.onload=function(){
+			document.getElementById('showpast').addEventListener('click',togglePastRaces,false);
+		}
+	</script>
