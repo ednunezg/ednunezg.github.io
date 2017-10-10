@@ -130,7 +130,7 @@ var projects_json = [
 			
 			"moreinfo":"https://www.slideshare.net/EduardoNunez10/ed-nunez-mobile-robot-cnc-alternative",
 
-			"source":"https://github.com/ednunezg/CNC_Alternative_Bot"
+			// "source":"https://github.com/ednunezg/CNC_Alternative_Bot"
 		},
 
 		"tags":["Arduino","Zigbee"]
