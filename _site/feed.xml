@@ -3,10 +3,10 @@
   <channel>
     <title>Ed Nunez</title>
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
-    <link>http://ednunez.me//</link>
-    <atom:link href="http://ednunez.me//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Oct 2017 11:32:34 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Oct 2017 11:32:34 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 11 Oct 2017 12:21:13 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Oct 2017 12:21:13 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -39,8 +39,8 @@ Countless jaw drops in the San Juans &lt;br /&gt;
 My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https://lighterpack.com/r/7ibnj3 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 24 Jul 2017 19:45:31 -0500</pubDate>
-        <link>http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</guid>
+        <link>http://localhost:4000/adventures/2017/07/24/ColoradoTrail.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2017/07/24/ColoradoTrail.html</guid>
         
         
         <category>Adventures</category>
@@ -94,8 +94,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;p&gt;I was so shocked by how my mind felt so in control for the last part of the race. I felt so inspired running with other amazing people that while I was there I knew I wanted to do another ultra. I signed up for this year’s Voyageurs 50 mile race in July, and I might be doing the North Face Endurance Challenge in Wisconsin as well. Other plans include a section hike of the Colorado Trail in July and a Superior Hiking Trail thru hike in late August.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Apr 2017 09:15:31 -0500</pubDate>
-        <link>http://ednunez.me//running/2017/04/10/Zumbro50.html</link>
-        <guid isPermaLink="true">http://ednunez.me//running/2017/04/10/Zumbro50.html</guid>
+        <link>http://localhost:4000/running/2017/04/10/Zumbro50.html</link>
+        <guid isPermaLink="true">http://localhost:4000/running/2017/04/10/Zumbro50.html</guid>
         
         
         <category>Running</category>
@@ -115,8 +115,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;p&gt;With no chance for us to survive the storm in a tent, we slept inside a castle dungeon. That was pretty rad.&lt;/p&gt;
 </description>
         <pubDate>Thu, 23 Mar 2017 09:15:31 -0500</pubDate>
-        <link>http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</guid>
+        <link>http://localhost:4000/adventures/2017/03/23/SkyeTrail.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2017/03/23/SkyeTrail.html</guid>
         
         
         <category>Adventures</category>
@@ -142,8 +142,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 29 Nov 2016 08:15:31 -0600</pubDate>
-        <link>http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</guid>
+        <link>http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</guid>
         
         
         <category>Adventures</category>
@@ -169,8 +169,8 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 31 May 2016 09:25:31 -0500</pubDate>
-        <link>http://ednunez.me//adventures/2016/05/31/Iceland.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/Iceland.html</guid>
+        <link>http://localhost:4000/adventures/2016/05/31/Iceland.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2016/05/31/Iceland.html</guid>
         
         
         <category>Adventures</category>
@@ -215,8 +215,8 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://goo.gl/photos/9BqCHGkRWnN
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 31 May 2016 09:15:31 -0500</pubDate>
-        <link>http://ednunez.me//adventures/2016/05/31/GR20.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/GR20.html</guid>
+        <link>http://localhost:4000/adventures/2016/05/31/GR20.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2016/05/31/GR20.html</guid>
         
         
         <category>Adventures</category>
@@ -261,8 +261,8 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://photos.app.goo.gl/me7NaXL
 
 </description>
         <pubDate>Sun, 30 Aug 2015 09:15:31 -0500</pubDate>
-        <link>http://ednunez.me//adventures/2015/08/30/JMT.html</link>
-        <guid isPermaLink="true">http://ednunez.me//adventures/2015/08/30/JMT.html</guid>
+        <link>http://localhost:4000/adventures/2015/08/30/JMT.html</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures/2015/08/30/JMT.html</guid>
         
         
         <category>Adventures</category>
