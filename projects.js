@@ -9,7 +9,7 @@ var projects_json = [
 		"info":"Built this web app for the purposes of learning React and handling user authentication with Google and Facebook OAuth services. This will help facilitate coding an upcoming project that requires user authentication.",
 
 		"links":{
-			"main":null,
+			"main":"https://todos-reactjs.herokuapp.com",
 			"moreinfo":null,
 			"source":"https://github.com/ednunezg/react-todolist"
 		},
@@ -48,9 +48,9 @@ var projects_json = [
 		"info":"Simple, but beautiful, single page training log viewer for Strava users, bypassing social media clutter on Strava's website. Imports workouts via Strava's API and presents log with a calendar-like view.  Intended to be primarily used as a 'new tab' page.",
 
 		"links":{
-			"main":null,
+			"main":"https://stravalogdemo.herokuapp.com",
 			"moreinfo":null,
-			"demo":"https://stravalogdemo.herokuapp.com",
+			"demo":null,
 			"source":"https://github.com/ednunezg/StravaLog"
 		},
 
