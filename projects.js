@@ -6,7 +6,7 @@ var projects_json = [
 
 		"image":"/assets/projects/todo.png",
 
-		"info":"Built this web app for the purposes of learning React and handling user authentication with Google and Facebook OAuth services. Web app allows for creating todos under a user account, and list of todos are synched with a MongoDB database.",
+		"info":"Built this for the purposes of learning React and handling user authentication with Google and Facebook OAuth services. This web app allows a logged in user to add todos to his profile. All todos are synched with a MongoDB database.",
 
 		"links":{
 			"main":"https://todos-reactjs.herokuapp.com",
