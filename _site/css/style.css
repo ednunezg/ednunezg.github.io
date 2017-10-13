@@ -556,7 +556,8 @@ pre {
 .project-tags {
   float: right;
   list-style: none;
-  padding-top: 0.2rem; }
+  padding-top: 0.2rem;
+  margin-left: 15px; }
   .project-tags .project-tag {
     /* For mobile */
     display: inline-block;

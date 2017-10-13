@@ -6,15 +6,15 @@ var projects_json = [
 
 		"image":"/assets/projects/todo.png",
 
-		"info":"Built this web app for the purposes of learning React and handling user authentication with Google and Facebook OAuth services. This will help facilitate coding an upcoming project that requires user authentication.",
+		"info":"Built this for the purposes of learning React.js and handling authentication with Google and Facebook OAuth APIs. This web app allows a logged in user to add todos to his profile. All todos are synched with a MongoDB database.",
 
 		"links":{
-			"main":null,
+			"main":"https://todos-reactjs.herokuapp.com",
 			"moreinfo":null,
 			"source":"https://github.com/ednunezg/react-todolist"
 		},
 
-		"tags":["React", "Flux", "Node.js","JavaScript","MongoDB"]
+		"tags":["Node.js","React.js","Flux","JavaScript","MongoDB"]
 	},
 
 	{
@@ -48,9 +48,9 @@ var projects_json = [
 		"info":"Simple, but beautiful, single page training log viewer for Strava users, bypassing social media clutter on Strava's website. Imports workouts via Strava's API and presents log with a calendar-like view.  Intended to be primarily used as a 'new tab' page.",
 
 		"links":{
-			"main":null,
+			"main":"https://stravalogdemo.herokuapp.com",
 			"moreinfo":null,
-			"demo":"https://stravalogdemo.herokuapp.com",
+			"demo":null,
 			"source":"https://github.com/ednunezg/StravaLog"
 		},
 
@@ -64,7 +64,7 @@ var projects_json = [
 
 		"image":"/assets/projects/speechanalytics.png",
 
-		"info":"iOS application designed to detect speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their oral skills. Made with four other students for my Senior Design class.",
+		"info":"iOS application designed to detect speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their speech skills. Made with four other students for my Senior Design class.",
 
 		"links":{
 			"main":null,
@@ -84,7 +84,7 @@ var projects_json = [
 
 		"image":"/assets/projects/chat.jpg",
 
-		"info":"For my computer networks course, I developed a chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
+		"info":"For my computer networks class, I developed a chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
 
 		"links":{
 			"main":null,

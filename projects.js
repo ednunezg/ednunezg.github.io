@@ -6,7 +6,7 @@ var projects_json = [
 
 		"image":"/assets/projects/todo.png",
 
-		"info":"Built this for the purposes of learning React and handling authentication with Google and Facebook OAuth services. This web app allows a logged in user to add todos to his profile. All todos are synched with a MongoDB database.",
+		"info":"Built this for the purposes of learning React.js and handling authentication with Google and Facebook OAuth APIs. This web app allows a logged in user to add todos to his profile. All todos are synched with a MongoDB database.",
 
 		"links":{
 			"main":"https://todos-reactjs.herokuapp.com",
@@ -14,7 +14,7 @@ var projects_json = [
 			"source":"https://github.com/ednunezg/react-todolist"
 		},
 
-		"tags":["React", "Flux", "Node.js","JavaScript","MongoDB"]
+		"tags":["Node.js","React.js","Flux","JavaScript","MongoDB"]
 	},
 
 	{
@@ -84,7 +84,7 @@ var projects_json = [
 
 		"image":"/assets/projects/chat.jpg",
 
-		"info":"For my computer networks course, I developed a chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
+		"info":"For my computer networks class, I developed a chatroom server and client program in Java. Special features include a user registration system and P2P file sharing between clients.",
 
 		"links":{
 			"main":null,
