@@ -64,7 +64,7 @@ var projects_json = [
 
 		"image":"/assets/projects/speechanalytics.png",
 
-		"info":"iOS application designed to detect speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their oral skills. Made with four other students for my Senior Design class.",
+		"info":"iOS application designed to detect speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their speech skills. Made with four other students for my Senior Design class.",
 
 		"links":{
 			"main":null,
