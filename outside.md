@@ -75,7 +75,7 @@ Long distance running shapes a significant part of who I am and what I do in my 
 
 	<h5>2017</h5>
 		<ul>
-		<li>Aug 2017 - Badlands National Park</li>
+		<li>Aug 2017 - <a href="/adventures/2017/10/27/Badlands.html">Badlands mini traverse</a></li>
 		<li>July 2017 - <a href="/adventures/2017/07/24/ColoradoTrail.html">Colorado Trail Thru Hike</a></li>
 		<li>March 2017 - <a href="/adventures/2017/03/23/SkyeTrail.html">Scotland's Skye Trail - Portree to Duntulm</a></li>
 		</ul>

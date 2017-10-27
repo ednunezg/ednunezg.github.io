@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Badlands mini traverse"
+date:   2017-10-27 10:45:31 +0529.4
+categories: ["Adventures"]
+author: "Eduardo Nunez"
+---
+
+
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/N5p5vBYxG-E" frameborder="0" allowfullscreen></iframe></div>

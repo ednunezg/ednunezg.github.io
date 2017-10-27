@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Colorado Trail Thru Hike"
+title:  "Colorado Trail thru hike"
 date:   2017-07-24 19:45:31 +0529.4
 categories: ["Adventures"]
 author: "Eduardo Nunez"
