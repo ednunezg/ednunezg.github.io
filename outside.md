@@ -17,7 +17,7 @@ order: 4
 <div class="outside-racing">
 
 <p>
-Long distance running shapes a significant part of who I am and what I do in my free time. Somewhat recently I've been making the progression from road running to longer and wilder trail running. Trail running isn't just a sport I love for its meditative and physically challenging aspect, it is also an ideal way for me to go out in nature without needing to go backpacking for multiple days.
+Love grinding and powering out some forward propelling bipedal movement! Seeing some beautiful places with my own two feet and testing my limits brings me a lot of joy :)
 </p>
 
 <h4>2017&nbsp;Race&nbsp;Calendar</h4>
@@ -63,7 +63,7 @@ Long distance running shapes a significant part of who I am and what I do in my 
 
 
 <div class="outside-adventures">
-	<p> I am fascinated with long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and the liberating feeling one gets walking for days at a time. </p>
+	<p> I am a super-fan of long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and hiking away into the unknown! </p>
 	
 
 	<!-- <h4>Upcoming Trips</h4>
