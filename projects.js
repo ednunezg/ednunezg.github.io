@@ -6,13 +6,13 @@ var projects_json = [
 
 		"image":"/assets/projects/glimpsecard.png",
 
-		"info":"Built this for the purposes of learning React.js and handling authentication with Google and Facebook OAuth APIs. This web app allows a logged in user to add to-dos to his profile. All to-dos are synched with a MongoDB database.",
+		"info":"Create augmented reality enabled business cards, viewable on your smartphone without an app.",
 
 		"links":{
 			"main":"https://https://glimpsecard.com",
 		},
 
-		"tags":["Node.js","React.js","Flux","JavaScript","MongoDB"]
+		"tags":["Node.js","React.js","JavaScript", "Shopify", "Stripe"]
 	},
 	{
 		"title":"To-do list app with user authentication",
