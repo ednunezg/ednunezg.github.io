@@ -9,8 +9,7 @@ var projects_json = [
 		"info":"Create augmented reality enabled business cards, viewable on your smartphone without an app.",
 
 		"links":{
-			"moreinfo":"https://www.glimpsecard.com",
-                        "main":"https://app.glimpsecard.com"
+			"main":"https://www.glimpsecard.com",
 		},
 
 		"tags":["Node.js","React.js","JavaScript", "Shopify", "Stripe"]
