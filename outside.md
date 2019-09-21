@@ -79,6 +79,8 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 	
 	<h4> <a href="https://lighterpack.com/r/7ibnj3"> What's in my pack? </a> </h4>
 	
+	<br />
+	
 
 	<!-- <h4>Upcoming Trips</h4>
 		<ul>
