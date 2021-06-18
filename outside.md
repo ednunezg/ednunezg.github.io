@@ -43,7 +43,7 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 
 			<h5>2017</h5>
 		<ul>
-		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a> --- <a href="/running/2017/04/10/zumbro50.html">Race report</a> </li>
+		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a>
 		<li>July 29 - <a href="http://www.voyageur50.com/"> Voyageur 50 Mile</a></li>
 		<li>Oct 21 - <a href="http://wildduluthraces.blogspot.com/"> Wild Duluth 50K</a></li>
 		</ul>
@@ -91,7 +91,8 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 
 	<h5>2017</h5>
 		<ul>
-		<li>Aug 2017 - <a href="/adventures/2017/10/27/Badlands.html">Badlands mini traverse</a></li>
+		<!-- <li>Aug 2017 - <a href="/adventures/2017/10/27/Badlands.html">Badlands mini traverse</a></li> -->
+		<li>Aug 2017 - Badlands mini traverse</li>
 		<li>July 2017 - <a href="/adventures/2017/07/24/ColoradoTrail.html">Colorado Trail Thru Hike</a></li>
 		<li>March 2017 - <a href="/adventures/2017/03/23/SkyeTrail.html">Scotland's Skye Trail - Portree to Duntulm</a></li>
 		</ul>
