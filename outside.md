@@ -17,17 +17,12 @@ order: 4
 <div class="outside-racing">
 
 <p>
-Long distance running shapes a significant part of who I am and what I do in my free time. Somewhat recently I've been making the progression from road running to longer and wilder trail running. Trail running isn't just a sport I love for its meditative and physically challenging aspect, it is also an ideal way for me to go out in nature without needing to go backpacking for multiple days.
+Love grinding and powering out some forward propelling bipedal movement! Seeing some beautiful places with my own two feet and testing my limits brings me a lot of joy :)
 </p>
 
-<h4>2017&nbsp;Race&nbsp;Calendar</h4>
-
-		<ul>
-		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a> --- <a href="/running/2017/04/10/zumbro50.html">Race report</a> </li>
-		<li>July 29 - <a href="http://www.voyageur50.com/"> Voyageur 50 Mile</a></li>
-		<li>Oct 21 - <a href="http://wildduluthraces.blogspot.com/"> Wild Duluth 50K</a></li>
-		</ul>
-
+		<h4>2019&nbsp;Race&nbsp;Calendar</h4>
+		<li>Jan 5 - <a href="https://www.coastaltrailruns.com/nyod_new_year_one_day.html/">New Year's One Day </a> </li>
+		<li>September 21 - <a href="http://www.goldenultra.com/">The Golden Ultra 120k </a> </li>
 		<br>
 
 <h4 style="display:inline"> Past Races</h4>&nbsp;&nbsp;<small style="color:#666;display:inline" class="showpast" id="showpast">[ Show/Hide ]</small>
@@ -35,6 +30,23 @@ Long distance running shapes a significant part of who I am and what I do in my 
 
 
 		<div id="past-races" class="past-races" style="display:none">
+
+		<h5>2018</h5>
+		<ul>
+		<li>October 20 - Wild Duluth 50k </li>
+		<li>October 6 - Skyline to Sea 50k </li>
+		<li>June 17 - Broken Arrow Skyrace 26k </li>
+		<li>May 12 - Quicksilver 100k </li>
+		<li>April 14 - Sonoma 50 Mile </li>
+		<li>March 10 - Marin Ultra Challenge 50k </li>
+		</ul>
+
+			<h5>2017</h5>
+		<ul>
+		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a> --- <a href="/running/2017/04/10/zumbro50.html">Race report</a> </li>
+		<li>July 29 - <a href="http://www.voyageur50.com/"> Voyageur 50 Mile</a></li>
+		<li>Oct 21 - <a href="http://wildduluthraces.blogspot.com/"> Wild Duluth 50K</a></li>
+		</ul>
 
 			<h5>2016</h5>
 				<ul>
@@ -63,7 +75,11 @@ Long distance running shapes a significant part of who I am and what I do in my 
 
 
 <div class="outside-adventures">
-	<p> I am fascinated with long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and the liberating feeling one gets walking for days at a time. </p>
+	<p> I am a super-fan of long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and hiking away into the unknown! </p>
+	
+	<h4> <a href="https://lighterpack.com/r/7ibnj3"> What's in my pack? </a> </h4>
+	
+	<br />
 	
 
 	<!-- <h4>Upcoming Trips</h4>
