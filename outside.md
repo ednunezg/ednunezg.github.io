@@ -43,7 +43,7 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 
 			<h5>2017</h5>
 		<ul>
-		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a>
+		<li>April 8 - <a href="https://www.zumbroendurancerun.com/">Zumbro 50 Mile</a></li>
 		<li>July 29 - <a href="http://www.voyageur50.com/"> Voyageur 50 Mile</a></li>
 		<li>Oct 21 - <a href="http://wildduluthraces.blogspot.com/"> Wild Duluth 50K</a></li>
 		</ul>
