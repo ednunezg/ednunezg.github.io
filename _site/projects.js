@@ -1,5 +1,20 @@
 var projects_json = [
 	{
+		"title":"Glimpsecard - Augmented reality business cards",
+
+		"date":"2019/08",
+
+		"image":"/assets/projects/glimpsecard.png",
+
+		"info":"Create augmented reality enabled business cards, viewable on your smartphone without an app.",
+
+		"links":{
+			"moreinfo":"http://ednunez.me/tech/2021/03/18/Glimpse.html",
+		},
+
+		"tags":["Node.js","React.js","JavaScript", "Shopify", "Stripe"]
+	},
+	{
 		"title":"To-do list app with user authentication",
 
 		"date":"2017/08",

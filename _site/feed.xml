@@ -3,22 +3,112 @@
   <channel>
     <title>Ed Nunez</title>
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Oct 2017 11:02:53 -0500</pubDate>
-    <lastBuildDate>Fri, 27 Oct 2017 11:02:53 -0500</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <link>http://ednunez.me//</link>
+    <atom:link href="http://ednunez.me//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Jun 2021 12:30:10 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Jun 2021 12:30:10 -0700</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Badlands mini traverse</title>
-        <description>&lt;div style=&quot;text-align: center;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N5p5vBYxG-E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+        <title>How we built a mobile AR product from the ground up at GLIMPSE</title>
+        <description>&lt;p&gt;During the period between September 2019 and March 2020, I helped built the AR product &lt;strong&gt;GLIMPSE cards&lt;/strong&gt;. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/detect_demo_trim.gif&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card’s AR content, and finally (3) have a bulk quantity of cards shipped.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the project was ultimately shut down on April 2020 as we were unable to secure financing to maintain the tech infrastructure.&lt;/p&gt;
+
+&lt;h2 id=&quot;goals-for-this-project&quot;&gt;Goals for this project&lt;/h2&gt;
+
+&lt;p&gt;The main challenges for this project were -&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Building a friction-less onboarding experience for a user to start building their business card.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/login.png&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Customizable card design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design1.png&quot; alt=&quot;Front card design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design2.png&quot; alt=&quot;Back card design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design3.png&quot; alt=&quot;AR content design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Smooth AR experience for people receiving business cards&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The user receiving the card needs to scan the QR code to be presented with the AR view. We choose the Web AR engine &lt;a href=&quot;https://www.8thwall.com/&quot;&gt;8th Wall&lt;/a&gt; to provide an experience that happens entirely in a mobile browser. The user does not need to download an app. It is as simple as scanning the QR code and giving the mobile browser permission to access the phone’s camera.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/ar1.png&quot; alt=&quot;AR splash screen&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/rooftop_demo.png&quot; alt=&quot;AR view&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Ordering flow and logistics for getting cards shipped efficiently&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We leveraged Stripe for handling order payments and managing the order status. Upon a user ordering a set quantity of cards, we unlocked the QR code in the AR app for unlimited viewing and a Stripe order is created with “created” status. On our end, we are notified when the order is received, prepare the shipment through a third party card printing service, and mark the order as “shipped”.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-architecture&quot;&gt;Technical architecture&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/tech_arch.png&quot; alt=&quot;Tech architecture&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The project was built under a Node.JS / ReactJS stack hosted under Google Cloud. We leveraged Google Cloud’s Datastore to store user and card information.&lt;/p&gt;
+
+&lt;p&gt;The main data entities involved were users and cards. User entities were created upon registration and after a card has been design, a card entity containing all info would be mapped 1-1 to the user.&lt;/p&gt;
+
+&lt;p&gt;The web tool for designing cards creates + updates card info, whereas the AR mobile view pulls cards info and presents it with the aid of 8th Wall Engine and AR.js.&lt;/p&gt;
+
+&lt;p&gt;The backend piece of the app also leveraged Stripe.js for creating and managing order entities, as well as processing payments.&lt;/p&gt;
+
+&lt;h2 id=&quot;lessons-upon-shutting-down-the-product&quot;&gt;Lessons upon shutting down the product&lt;/h2&gt;
+
+&lt;p&gt;We shut down the product as we failed to acquire and retain sufficient users to maintain the costs of cloud hosting and membership to the 8th Wall AR engine. We learned that the AR technology in a product like ours is not reliable enough for mass adoption yet:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;One of the biggest obstacles we faced in retaining users concerned the usability aspect of the AR experience within the card. Perhaps it was obvious to our team how QR codes are scanned, but we learned the hard way that a large percentage of smart phone users are not familiar with QR code scanning. On top of this, we received some reports from people running old versions of Android OS that some phones did not have a QR code scanner built in, which led to some friction in people having to download a seperate QR scanner app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some users living in regions with slow mobile connectivity were not satisfied with the long delay times in video content appearing on the AR app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There were a few instances of people using the AR app on smartphones without a built in accelerometer, which made the AR experience un-usable.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On the sales side, there are some aspects we could have definitely improved on to improve user acquisition and retention, including the use of marketing channels like Web Ads, SEO optimization, and directly contacting businesses.&lt;/p&gt;
+
+&lt;p&gt;Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 27 Oct 2017 10:45:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2017/10/27/Badlands.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2017/10/27/Badlands.html</guid>
+        <pubDate>Thu, 18 Mar 2021 12:58:00 -0700</pubDate>
+        <link>http://ednunez.me//tech/2021/03/18/Glimpse.html</link>
+        <guid isPermaLink="true">http://ednunez.me//tech/2021/03/18/Glimpse.html</guid>
         
         
-        <category>Adventures</category>
+        <category>Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Vanbuild</title>
+        <description>
+</description>
+        <pubDate>Thu, 18 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://ednunez.me//2021/03/18/VanBuild.html</link>
+        <guid isPermaLink="true">http://ednunez.me//2021/03/18/VanBuild.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Algotrading</title>
+        <description>
+</description>
+        <pubDate>Thu, 18 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://ednunez.me//2021/03/18/Algotrading.html</link>
+        <guid isPermaLink="true">http://ednunez.me//2021/03/18/Algotrading.html</guid>
+        
         
       </item>
     
@@ -51,67 +141,12 @@ Countless jaw drops in the San Juans &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt; 
 My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https://lighterpack.com/r/7ibnj3 &lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 24 Jul 2017 19:45:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2017/07/24/ColoradoTrail.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2017/07/24/ColoradoTrail.html</guid>
+        <pubDate>Mon, 24 Jul 2017 19:45:31 -0700</pubDate>
+        <link>http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</guid>
         
         
         <category>Adventures</category>
-        
-      </item>
-    
-      <item>
-        <title>Zumbro 50 Miler race report (My first ultra!)</title>
-        <description>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/2017-04-10-zumbro50/zumbro1.jpg&quot; alt=&quot;Post Photo&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;Photo cred: Kevin Chem&lt;/p&gt;
-
-&lt;h1 id=&quot;pre-race&quot;&gt;Pre-race&lt;/h1&gt;
-
-&lt;p&gt;This year, I was hungry to challenge myself with something different and fresh: &lt;em&gt;trail running&lt;/em&gt;. More specifically, I was fascinated with the idea of running a 50 mile ultramarathon.&lt;/p&gt;
-
-&lt;p&gt;I had gotten a pretty bad knee injury just one week before running the Cape Cod Marathon in 2016. Things were really going south for me days approaching the race. I had spent four whole months training hard for a sub 3:30 finish just to have all my hard work go to waste. As I was recovering from my injury, I found the thought of training for another marathon too boring. I needed a new challenge to look forward to.&lt;/p&gt;
-
-&lt;p&gt;50 miles. What once seemed like an impossible distance started to seem feasible to me when I realized I had a lot of time to train. Having a relatively easy college course load this Spring, I was able to consistently run some 50-70 mile weeks. Because I had to train during winter months, most of my running was done in semi-icy pavement. I did get a few trail runs here and there once snow started to melt, but not as much as I would’ve liked.&lt;/p&gt;
-
-&lt;h1 id=&quot;race-day&quot;&gt;Race day&lt;/h1&gt;
-
-&lt;p&gt;The nerves kicked in as I drove with my dad down to Zumbro Bottoms, MN. With most of my training being done on roads, I had no idea how my body was going react to hilly terrain.&lt;/p&gt;
-
-&lt;p&gt;I was happy I had picked this race as my first ultra. The atmosphere was incredible and after taking a peek at the food choices in the aid stations I was in awe. As I was waiting for midnight to come, it was getting really cold and I was getting angsty just sitting down near the start. I noticed the warm coffee at the aid station.&lt;/p&gt;
-
-&lt;p&gt;Here’s where I made my first mistake. I thought a little coffee wouldn’t hurt so I chugged a cup of decaf. Then I had second guesses as to whether I had fueled up enough and impulsively ate a handful Swedish Fish from the aid station. Swedish Fish and Coffee… definitely not a good combination.&lt;/p&gt;
-
-&lt;h1 id=&quot;first-loop&quot;&gt;First loop&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/posts-photos/2017-04-10-zumbro50/zumbro2.jpg&quot; alt=&quot;Race start&quot; class=&quot;img-responsive&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Race starts and I’m feeling pretty comfortable so far. I noticed the hills were tough but I was racing through them at a pretty comfortable pace. At around mile 8 everything started going south. I was having some growing pain in my stomach to the point where I felt like I was going to blow up. Reached the aid station at Mile 12 desperately asking for toilet paper. After taking care of business and hydrating I felt like I could run comfortably again but I wasn’t feeling great. Despite these pains, I thought I kept a pretty OK pace.&lt;/p&gt;
-
-&lt;h1 id=&quot;second-loop&quot;&gt;Second loop&lt;/h1&gt;
-
-&lt;p&gt;During this loop, I was in a really bad place, mentally and physically. What in the first loop felt like gracefully sauntering up the hills was now me crawling in pain. I kept telling myself that I wanted to be over. When I got to the 25 mile (halfway) point it seemed as if I should’ve been done with the race already. The only thing that kept my sanity was food at the aid stations and the inspiration I got from watching the 100 mile runners strolling like zombies. One of the race volunteers at aid station 2/4 had made some of the best chocolate chip cookies I’ve ever had. It felt unearthly chowing down cookies with the amount of fatigue I was in, but I later realized that I was not eating as much as I should. I finished this loop terribly. I don’t remember my splits exactly but I believe I finished this in about five hours where as the first loop I finished closer to three.&lt;/p&gt;
-
-&lt;h1 id=&quot;third-loop&quot;&gt;Third loop&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/posts-photos/2017-04-10-zumbro50/zumbro3.jpg&quot; alt=&quot;Sunrise finishing up second loop&quot; class=&quot;img-responsive&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have no idea how things started to get better. It’s as if I just got a sudden burst of inspiration and I wasn’t thinking about the pain anymore. Just getting into a state of flow and being happy that I was doing this.&lt;/p&gt;
-
-&lt;p&gt;As I was finishing up the second loop the sunrise brought end to the eight hours of pure darkness. I finally got that tight headlamp off my face and appreciated the lush glows of orange and purple from the early sun. It was definitely like a everything changed in a switch. I saw my dad at the start of the third loop and he encouraged me to sit down and eat for a little while. I’m glad I listened to him because after hours of being stomach sit I was able to eat again. I sat down on a bench for ten minutes to chow down five pancakes, couple of hash browns, a cup of chicken noodle soup, and quesadillas.&lt;/p&gt;
-
-&lt;p&gt;I walked the first hill as I waited for food to digest. Then bam! It was like pure flow from there. I felt better than ever, and was able to knock down this loop in four hours for a total finish time of 12 hours and 21 minutes.&lt;/p&gt;
-
-&lt;h1 id=&quot;moving-forward&quot;&gt;Moving forward&lt;/h1&gt;
-
-&lt;p&gt;I was so shocked by how my mind felt so in control for the last part of the race. I felt so inspired running with other amazing people that while I was there I knew I wanted to do another ultra. I signed up for this year’s Voyageurs 50 mile race in July, and I might be doing the North Face Endurance Challenge in Wisconsin as well. Other plans include a section hike of the Colorado Trail in July and a Superior Hiking Trail thru hike in late August.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Apr 2017 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/running/2017/04/10/Zumbro50.html</link>
-        <guid isPermaLink="true">http://localhost:4000/running/2017/04/10/Zumbro50.html</guid>
-        
-        
-        <category>Running</category>
         
       </item>
     
@@ -127,9 +162,9 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 
 &lt;p&gt;With no chance for us to survive the storm in a tent, we sought shelter in a castle dungeon. The storms calmed down and we made our escape out of Skye, with the hopes of coming back someday.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Mar 2017 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2017/03/23/SkyeTrail.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2017/03/23/SkyeTrail.html</guid>
+        <pubDate>Thu, 23 Mar 2017 07:15:31 -0700</pubDate>
+        <link>http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</guid>
         
         
         <category>Adventures</category>
@@ -154,9 +189,9 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;img src=&quot;/posts-photos/2016-11-29-BoucherTontoBright/4.jpg&quot; /&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 29 Nov 2016 08:15:31 -0600</pubDate>
-        <link>http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2016/11/29/GrandCanyon.html</guid>
+        <pubDate>Tue, 29 Nov 2016 06:15:31 -0800</pubDate>
+        <link>http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</guid>
         
         
         <category>Adventures</category>
@@ -181,9 +216,9 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;img src=&quot;/posts-photos/2016-05-31-Iceland/7.jpg&quot; /&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 31 May 2016 09:25:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2016/05/31/Iceland.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2016/05/31/Iceland.html</guid>
+        <pubDate>Tue, 31 May 2016 07:25:31 -0700</pubDate>
+        <link>http://ednunez.me//adventures/2016/05/31/Iceland.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/Iceland.html</guid>
         
         
         <category>Adventures</category>
@@ -227,9 +262,9 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://goo.gl/photos/9BqCHGkRWnN
 
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 31 May 2016 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2016/05/31/GR20.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2016/05/31/GR20.html</guid>
+        <pubDate>Tue, 31 May 2016 07:15:31 -0700</pubDate>
+        <link>http://ednunez.me//adventures/2016/05/31/GR20.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/GR20.html</guid>
         
         
         <category>Adventures</category>
@@ -273,9 +308,9 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://photos.app.goo.gl/me7NaXL
 &lt;p&gt;Choosing the John Muir Trail as my first long hike has spoiled me a lot. I don’t think you could easily find a well established route that is this remote and so dense with beautiful mountains. Every single day on the Sierras was epic to say the least. For a friendly hike for all experience levels, I think this one’s hard to top.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 30 Aug 2015 09:15:31 -0500</pubDate>
-        <link>http://localhost:4000/adventures/2015/08/30/JMT.html</link>
-        <guid isPermaLink="true">http://localhost:4000/adventures/2015/08/30/JMT.html</guid>
+        <pubDate>Sun, 30 Aug 2015 07:15:31 -0700</pubDate>
+        <link>http://ednunez.me//adventures/2015/08/30/JMT.html</link>
+        <guid isPermaLink="true">http://ednunez.me//adventures/2015/08/30/JMT.html</guid>
         
         
         <category>Adventures</category>

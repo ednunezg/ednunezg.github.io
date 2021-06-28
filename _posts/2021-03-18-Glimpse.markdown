@@ -1,0 +1,85 @@
+---
+layout: post
+title: "How we built a mobile AR product from the ground up at GLIMPSE"
+date:   2021-03-18 12:58:00 +0529.4
+categories: ["Tech"]
+author: "Eduardo Nunez"
+---
+
+During the period between September 2019 and March 2020, I helped built the AR product **GLIMPSE cards**. GLIMPSE cards are business cards that can present digital content to the card's receiver with the aid of Augmented Reality.
+
+![AR in action](/posts-photos/GLIMPSE/detect_demo_trim.gif){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card's AR content, and finally (3) have a bulk quantity of cards shipped.
+
+Unfortunately the project was ultimately shut down on April 2020 as we were unable to secure financing to maintain the tech infrastructure.
+
+
+## Goals for this project
+
+The main challenges for this project were - 
+
+**1. Building a friction-less onboarding experience for a user to start building their business card.**
+
+We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.
+
+
+![AR in action](/posts-photos/GLIMPSE/login.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+**2. Customizable card design**
+
+The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.
+
+![Front card design](/posts-photos/GLIMPSE/design1.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+![Back card design](/posts-photos/GLIMPSE/design2.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+![AR content design](/posts-photos/GLIMPSE/design3.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+
+**3. Smooth AR experience for people receiving business cards**
+
+The user receiving the card needs to scan the QR code to be presented with the AR view. We choose the Web AR engine <a href="https://www.8thwall.com/">8th Wall</a> to provide an experience that happens entirely in a mobile browser. The user does not need to download an app. It is as simple as scanning the QR code and giving the mobile browser permission to access the phone's camera.
+
+![AR splash screen](/posts-photos/GLIMPSE/ar1.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+![AR view](/posts-photos/GLIMPSE/rooftop_demo.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+
+**4. Ordering flow and logistics for getting cards shipped efficiently**
+
+We leveraged Stripe for handling order payments and managing the order status. Upon a user ordering a set quantity of cards, we unlocked the QR code in the AR app for unlimited viewing and a Stripe order is created with "created" status. On our end, we are notified when the order is received, prepare the shipment through a third party card printing service, and mark the order as "shipped".
+
+## Technical architecture
+
+![Tech architecture](/posts-photos/GLIMPSE/tech_arch.png){:class="img-responsive"}{:height="500px"} 
+{: style="text-align: center;"}
+
+
+
+The project was built under a Node.JS / ReactJS stack hosted under Google Cloud. We leveraged Google Cloud's Datastore to store user and card information.
+
+The main data entities involved were users and cards. User entities were created upon registration and after a card has been design, a card entity containing all info would be mapped 1-1 to the user.
+
+The web tool for designing cards creates + updates card info, whereas the AR mobile view pulls cards info and presents it with the aid of 8th Wall Engine and AR.js.
+
+The backend piece of the app also leveraged Stripe.js for creating and managing order entities, as well as processing payments.
+
+## Lessons upon shutting down the product
+
+We shut down the product as we failed to acquire and retain sufficient users to maintain the costs of cloud hosting and membership to the 8th Wall AR engine. We learned that the AR technology in a product like ours is not reliable enough for mass adoption yet:
+
+1. One of the biggest obstacles we faced in retaining users concerned the usability aspect of the AR experience within the card. Perhaps it was obvious to our team how QR codes are scanned, but we learned the hard way that a large percentage of smart phone users are not familiar with QR code scanning. On top of this, we received some reports from people running old versions of Android OS that some phones did not have a QR code scanner built in, which led to some friction in people having to download a seperate QR scanner app.
+
+2. Some users living in regions with slow mobile connectivity were not satisfied with the long delay times in video content appearing on the AR app.
+
+3. There were a few instances of people using the AR app on smartphones without a built in accelerometer, which made the AR experience un-usable.
+
+On the sales side, there are some aspects we could have definitely improved on to improve user acquisition and retention, including the use of marketing channels like Web Ads, SEO optimization, and directly contacting businesses.
+
+Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.
