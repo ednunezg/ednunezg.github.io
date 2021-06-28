@@ -1,5 +1,21 @@
 var projects_json = [
 	{
+		"title":"Algorithmic Day Trading Bot",
+
+		"date":"2020/04",
+
+		"image":"/assets/projects/algotrading.png",
+
+		"info":"Created day-trading bot that makes trading decisions based on support+resistance trendlines, news, and other key market indicators. Published python library for trendline detection component.",
+
+		"links":{
+			"moreinfo":"http://ednunez.me/tech/2021/03/18/Algotrading.html",
+			"source":"https://github.com/ednunezg/pytrendline"
+		},
+
+		"tags":["Python", "Pandas", "Ameritrade API"]
+	},
+	{
 		"title":"Glimpsecard - Augmented reality business cards",
 
 		"date":"2019/08",
