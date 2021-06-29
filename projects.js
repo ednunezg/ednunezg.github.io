@@ -6,7 +6,7 @@ var projects_json = [
 
 		"image":"/assets/projects/algotrading.png",
 
-		"info":"Created day-trading bot that makes trading decisions based on support+resistance trendlines, news, and other key market indicators. Published python library for trendline detection component.",
+		"info":"Created day-trading bot with backtesting framework. Bot makes trading decisions based on support+resistance trendlines, news, and other key market indicators. Published python library for trendline detection component.",
 
 		"links":{
 			"moreinfo":"http://ednunez.me/tech/2021/03/18/Algotrading.html",
