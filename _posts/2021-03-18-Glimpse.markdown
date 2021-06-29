@@ -8,7 +8,7 @@ author: "Eduardo Nunez"
 
 During the period between September 2019 and March 2020, I helped built the AR product **GLIMPSE cards**. GLIMPSE cards are business cards that can present digital content to the card's receiver with the aid of Augmented Reality.
 
-![AR in action](/posts-photos/GLIMPSE/detect_demo_trim.gif){:class="img-responsive"}{:height="500px"} 
+![AR in action](/posts-photos/GLIMPSE/detect_demo_trim.gif){:class="img-responsive"}
 {: style="text-align: center;"}
 
 The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card's AR content, and finally (3) have a bulk quantity of cards shipped.
@@ -25,18 +25,17 @@ The main challenges for this project were -
 We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.
 
 
-![AR in action](/posts-photos/GLIMPSE/login.png){:class="img-responsive"}{:height="500px"} 
-{: style="text-align: center;"}
+![AR in action](/posts-photos/GLIMPSE/login.png){:class="img-responsive"}{: style="text-align: center;"}
 
 **2. Customizable card design**
 
 The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.
 
-![Front card design](/posts-photos/GLIMPSE/design1.png){:class="img-responsive"}{:height="500px"} 
+![Front card design](/posts-photos/GLIMPSE/design1.png){:class="img-responsive"}
 {: style="text-align: center;"}
-![Back card design](/posts-photos/GLIMPSE/design2.png){:class="img-responsive"}{:height="500px"} 
+![Back card design](/posts-photos/GLIMPSE/design2.png){:class="img-responsive"}
 {: style="text-align: center;"}
-![AR content design](/posts-photos/GLIMPSE/design3.png){:class="img-responsive"}{:height="500px"} 
+![AR content design](/posts-photos/GLIMPSE/design3.png){:class="img-responsive"}
 {: style="text-align: center;"}
 
 
@@ -58,7 +57,7 @@ We leveraged Stripe for handling order payments and managing the order status. U
 
 ## Technical architecture
 
-![Tech architecture](/posts-photos/GLIMPSE/tech_arch.png){:class="img-responsive"}{:height="500px"} 
+![Tech architecture](/posts-photos/GLIMPSE/tech_arch.png){:class="img-responsive"}
 {: style="text-align: center;"}
 
 

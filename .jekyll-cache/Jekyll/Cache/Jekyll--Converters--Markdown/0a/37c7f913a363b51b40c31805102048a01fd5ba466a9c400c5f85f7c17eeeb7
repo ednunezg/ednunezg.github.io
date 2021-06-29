@@ -1,6 +1,6 @@
-I"<p>During the period between September 2019 and March 2020, I helped built the AR product <strong>GLIMPSE cards</strong>. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.</p>
+I"�<p>During the period between September 2019 and March 2020, I helped built the AR product <strong>GLIMPSE cards</strong>. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.</p>
 
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/detect_demo_trim.gif" alt="AR in action" class="img-responsive" height="500px" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/detect_demo_trim.gif" alt="AR in action" class="img-responsive" /></p>
 
 <p>The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card’s AR content, and finally (3) have a bulk quantity of cards shipped.</p>
 
@@ -14,15 +14,15 @@
 
 <p>We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.</p>
 
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/login.png" alt="AR in action" class="img-responsive" height="500px" /></p>
+<p><img src="/posts-photos/GLIMPSE/login.png" alt="AR in action" class="img-responsive" style="text-align: center;" /></p>
 
 <p><strong>2. Customizable card design</strong></p>
 
 <p>The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.</p>
 
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design1.png" alt="Front card design" class="img-responsive" height="500px" /></p>
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design2.png" alt="Back card design" class="img-responsive" height="500px" /></p>
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design3.png" alt="AR content design" class="img-responsive" height="500px" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design1.png" alt="Front card design" class="img-responsive" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design2.png" alt="Back card design" class="img-responsive" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design3.png" alt="AR content design" class="img-responsive" /></p>
 
 <p><strong>3. Smooth AR experience for people receiving business cards</strong></p>
 
@@ -40,7 +40,7 @@
 
 <h2 id="technical-architecture">Technical architecture</h2>
 
-<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/tech_arch.png" alt="Tech architecture" class="img-responsive" height="500px" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/tech_arch.png" alt="Tech architecture" class="img-responsive" /></p>
 
 <p>The project was built under a Node.JS / ReactJS stack hosted under Google Cloud. We leveraged Google Cloud’s Datastore to store user and card information.</p>
 

@@ -103,10 +103,10 @@
   <div class="post-content" itemprop="articleBody">
     <h2 id="about">About</h2>
 
-<p>Day trading is an intense game where you are competing with a large crowd of investors to react to market conditions that you can predict and react with speed. In theory, trading in an automated fashion can allow you to generate profits with a speed and frequency that is impossible for a human to execute. Other added benefits include:</p>
+<p>Day trading involves a competition with a large crowd of investors to react to market conditions that you can predict and react with speed. In theory, trading in an automated fashion can allow you to generate profits with a speed and frequency that is impossible for a human to execute. Other added benefits include:</p>
 
 <ul>
-  <li>You can detach yourself psychologically and emotionally from your trading decisions once you cement a trust in your strategy.</li>
+  <li>You can detach yourself psychologically and emotionally from your trading decisions once you cement a trust in your strategy</li>
   <li>Your strategy is testable against historical price data. This also means you optimize algorithm parameter by permutating these on multiple backtests</li>
   <li>Low risk of manual error while placing orders</li>
 </ul>
@@ -119,13 +119,13 @@
 
 <p>My trading bot strategy falls into the category of low-frequency day trading with each trade consiting of a large quantity of stocks ($10k - $100k worth). The trades are low-frequency because the trades are contingent on a trendline being found on a candlestick chart once every few minutes. This is perhaps different from high-frequency day trading strategies where a trader might be sending hundreds or thousands of orders a day, and making profits on quick price movements.</p>
 
-<p>For my strategy, I found it appropiate to use a STP and LMT OCO order type for placing orders. In an OCO order (one-cancels-the-other), your broker takes care of listening for an activation price by which you will enter a position. After this activation, the broker listens to two new price thresholds for which the position will close.</p>
+<p>For my strategy, I found it appropiate to use a STP and LMT OCO order type for placing orders. In an OCO order (one-cancels-the-other), your broker takes care of listening for an activation price by which you will enter a position. After this activation, the broker listens to two new price thresholds for which the position will close on a profit or loss.</p>
+
+<p><img src="/posts-photos/ALGOTRADING/oco.png" alt="OCO order" class="img-responsive" style="text-align: center;" /></p>
 
 <p>This order type made it easy for me to build a backtesting framework, makes interpreting results straight forward, and removes the burden of having your software listen for the appropiate moment to close positions. If your software crashes and you have pending orders that have not closed the position, the OCO instructions implicit on the order puts the responsibility of closing positions on your broker.</p>
 
-<p>I wouldn’t reccomend this order type if you need to have control of better granularity (e.g. you want to exit your position 50% at some price point and 50% at another). This is also not recommended if your strategy is contingent on time if say, you want to force a position to close X minutes after you enter. in this case, sending multiple MARKET orders would be more appropiate.</p>
-
-<p style="text-align: center;"><img src="/posts-photos/ALGOTRADING/oco.png" alt="OCO order" class="img-responsive" height="300px" /></p>
+<p>I wouldn’t reccomend this order type if you need to have control of better granularity (e.g. you want to exit your position 50% at some price point and 50% at another). This is also not recommended if your strategy is contingent on time if say, you want to force a position to close X minutes after you enter. in this case, entering and exiting positions with MARKET trigger orders would be more appropiate.</p>
 
 <h2 id="indicators-leveraged-for-my-bots-strategy">Indicators leveraged for my bot’s strategy</h2>
 
@@ -143,7 +143,7 @@
 
 <p>My strategy relied on trendline detection as the key indicator for deciding whether to execute trades. This was achieved with the use of my python library <b><a href="https://github.com/ednunezg/pytrendline">pytrendline</a></b> which you can use for detecting trendlines formed at the support or resistance level of candlesticks.</p>
 
-<p>Another indicators I leveraged were news sentiments based on keywords matched against a stock’s news feed. SMA and EMA curves and number of price inflection points were also computed and analyzed against a set of criteria to decide if the trade is worth doing.</p>
+<p>Another indicators I leveraged were news sentiments based on keywords matched against a stock’s news feed. SMA curves, EMA curves, and number of price inflection points were also computed and analyzed against a set of criteria to decide if the trade is worth doing.</p>
 <h2 id="what-do-you-need-to-build-reliable-and-back-testable-trading-bot">What do you need to build reliable and back-testable trading bot?</h2>
 
 <p>A succesful testable bot should be one that can be made with an offline and online mode of operation. If these two modes can be provided as an input, you can leverage the offline mode for performing historical tests using a backtesting framework that wraps around the program, and the online mode for a production use case.</p>
@@ -167,11 +167,11 @@
 
 <ul>
   <li>Core program: Python language and Pandas lib for plenty of matrix operations</li>
-  <li>Placing orders: <a href="https://developer.tdameritrade.com/apis">Ameritrade API order placement endpoint</a></li>
-  <li>Fetching OHLC price information: <a href="https://developer.tdameritrade.com/apis">Ameritrade API price history endpoint</a>.</li>
-  <li>Fetching news: <a href="https://iexcloud.io/docs/api/#news">IEX Cloud news endpoint</a>. Handy API gives a feed of latest news from many sources just providing stock symbol as an input</li>
-  <li>Log output and alerting: <a href="https://logz.io/">Logz.io</a>. Logz.io is a useful ELK-as-a-service platform in which I pushed all of my online mode logs for the purposes of long term retention, debugging, and alerting.</li>
-  <li>Visualization of candlestick chart, EMA/SMA curves, trendlines: <a href="https://bokeh.org/">Bokeh</a>. All of my trades generated also create an output HTML file with a visualization snapshot of the stock’s candlesticks, trendlines, curves and other indicators at that point in time. Really useful for debugging</li>
+  <li>Placing orders: <b><a href="https://developer.tdameritrade.com/apis">Ameritrade API order placement endpoint</a> </b></li>
+  <li>Fetching OHLC price information: <b><a href="https://developer.tdameritrade.com/apis">Ameritrade API price history endpoint</a>.</b></li>
+  <li>Fetching news: <b><a href="https://iexcloud.io/docs/api/#news">IEX Cloud news endpoint</a></b>. Handy API gives a feed of latest news from many sources just providing stock symbol as an input</li>
+  <li>Log output and alerting: <b><a href="https://logz.io/">Logz.io</a></b>. Logz.io is a useful ELK-as-a-service platform in which I pushed all of my online mode logs for the purposes of long term retention, debugging, and alerting.</li>
+  <li>Visualization of candlestick chart, EMA/SMA curves, trendlines: <b><a href="https://bokeh.org/">Bokeh</a></b>. All of my trades generated also create an output HTML file with a visualization snapshot of the stock’s candlesticks, trendlines, curves and other indicators at that point in time. Really useful for debugging</li>
 </ul>
 
 <p style="text-align: center;"><img src="/posts-photos/ALGOTRADING/tech-dependencies.png" alt="Tech infra" class="img-responsive" /></p>
@@ -186,7 +186,7 @@
 
 <h2 id="lessons-learned-and-a-word-of-caution">Lessons learned and a word of caution</h2>
 
-<p>Taking on this project as both a challenging technical project and the source of income and the pursuit of a source of income turned out being extremely rewarding and fruitful in learning how to best design reliable+complex backend systems.</p>
+<p>Taking on this project as both a challenging feat and the pursuit of an extra source of income turned out being extremely rewarding and fruitful in learning how to best design reliable+complex backend systems.</p>
 
 <p>The two main challenging pieces of solving this puzzle involved proper order lifecycle management and building the backtesting software.</p>
 

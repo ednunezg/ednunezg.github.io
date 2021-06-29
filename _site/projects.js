@@ -1,5 +1,20 @@
 var projects_json = [
 	{
+		"title":"RAM Promaster Van Mobile Home",
+
+		"date":"2020/11",
+
+		"image":"/assets/projects/vanlife.png",
+
+		"info":"Built out a mobile home outfitted with furniture, off grid solar electrical system, running water, kitchen, and more.",
+
+		"links":{
+			"moreinfo":"http://ednunez.me/tech/2021/03/18/VanBuild.html"
+		},
+
+		"tags":["CAD modeling", "Electrical wiring", "Carpentry"]
+	},
+	{
 		"title":"Algorithmic Day Trading Bot",
 
 		"date":"2020/04",
@@ -13,7 +28,7 @@ var projects_json = [
 			"source":"https://github.com/ednunezg/pytrendline"
 		},
 
-		"tags":["Python", "Pandas", "Ameritrade API"]
+		"tags":["Python", "Pandas", "Ameritrade API", "AWS", "Elastic Stack"]
 	},
 	{
 		"title":"Glimpsecard - Augmented reality business cards",

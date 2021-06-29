@@ -5,15 +5,15 @@
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
     <link>http://ednunez.me//</link>
     <atom:link href="http://ednunez.me//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jun 2021 20:24:21 -0700</pubDate>
-    <lastBuildDate>Mon, 28 Jun 2021 20:24:21 -0700</lastBuildDate>
+    <pubDate>Tue, 29 Jun 2021 12:06:53 -0700</pubDate>
+    <lastBuildDate>Tue, 29 Jun 2021 12:06:53 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>How we built a mobile AR product from the ground up at GLIMPSE</title>
         <description>&lt;p&gt;During the period between September 2019 and March 2020, I helped built the AR product &lt;strong&gt;GLIMPSE cards&lt;/strong&gt;. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/detect_demo_trim.gif&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/detect_demo_trim.gif&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card’s AR content, and finally (3) have a bulk quantity of cards shipped.&lt;/p&gt;
 
@@ -27,15 +27,15 @@
 
 &lt;p&gt;We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/login.png&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/login.png&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; style=&quot;text-align: center;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Customizable card design&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design1.png&quot; alt=&quot;Front card design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design2.png&quot; alt=&quot;Back card design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design3.png&quot; alt=&quot;AR content design&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design1.png&quot; alt=&quot;Front card design&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design2.png&quot; alt=&quot;Back card design&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/design3.png&quot; alt=&quot;AR content design&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Smooth AR experience for people receiving business cards&lt;/strong&gt;&lt;/p&gt;
 
@@ -53,7 +53,7 @@
 
 &lt;h2 id=&quot;technical-architecture&quot;&gt;Technical architecture&lt;/h2&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/tech_arch.png&quot; alt=&quot;Tech architecture&quot; class=&quot;img-responsive&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/tech_arch.png&quot; alt=&quot;Tech architecture&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The project was built under a Node.JS / ReactJS stack hosted under Google Cloud. We leveraged Google Cloud’s Datastore to store user and card information.&lt;/p&gt;
 
@@ -96,10 +96,10 @@
         <title>Building a reliable and testable day trading bot on python</title>
         <description>&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
 
-&lt;p&gt;Day trading is an intense game where you are competing with a large crowd of investors to react to market conditions that you can predict and react with speed. In theory, trading in an automated fashion can allow you to generate profits with a speed and frequency that is impossible for a human to execute. Other added benefits include:&lt;/p&gt;
+&lt;p&gt;Day trading involves a competition with a large crowd of investors to react to market conditions that you can predict and react with speed. In theory, trading in an automated fashion can allow you to generate profits with a speed and frequency that is impossible for a human to execute. Other added benefits include:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;You can detach yourself psychologically and emotionally from your trading decisions once you cement a trust in your strategy.&lt;/li&gt;
+  &lt;li&gt;You can detach yourself psychologically and emotionally from your trading decisions once you cement a trust in your strategy&lt;/li&gt;
   &lt;li&gt;Your strategy is testable against historical price data. This also means you optimize algorithm parameter by permutating these on multiple backtests&lt;/li&gt;
   &lt;li&gt;Low risk of manual error while placing orders&lt;/li&gt;
 &lt;/ul&gt;
@@ -112,13 +112,13 @@
 
 &lt;p&gt;My trading bot strategy falls into the category of low-frequency day trading with each trade consiting of a large quantity of stocks ($10k - $100k worth). The trades are low-frequency because the trades are contingent on a trendline being found on a candlestick chart once every few minutes. This is perhaps different from high-frequency day trading strategies where a trader might be sending hundreds or thousands of orders a day, and making profits on quick price movements.&lt;/p&gt;
 
-&lt;p&gt;For my strategy, I found it appropiate to use a STP and LMT OCO order type for placing orders. In an OCO order (one-cancels-the-other), your broker takes care of listening for an activation price by which you will enter a position. After this activation, the broker listens to two new price thresholds for which the position will close.&lt;/p&gt;
+&lt;p&gt;For my strategy, I found it appropiate to use a STP and LMT OCO order type for placing orders. In an OCO order (one-cancels-the-other), your broker takes care of listening for an activation price by which you will enter a position. After this activation, the broker listens to two new price thresholds for which the position will close on a profit or loss.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/posts-photos/ALGOTRADING/oco.png&quot; alt=&quot;OCO order&quot; class=&quot;img-responsive&quot; style=&quot;text-align: center;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This order type made it easy for me to build a backtesting framework, makes interpreting results straight forward, and removes the burden of having your software listen for the appropiate moment to close positions. If your software crashes and you have pending orders that have not closed the position, the OCO instructions implicit on the order puts the responsibility of closing positions on your broker.&lt;/p&gt;
 
-&lt;p&gt;I wouldn’t reccomend this order type if you need to have control of better granularity (e.g. you want to exit your position 50% at some price point and 50% at another). This is also not recommended if your strategy is contingent on time if say, you want to force a position to close X minutes after you enter. in this case, sending multiple MARKET orders would be more appropiate.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/ALGOTRADING/oco.png&quot; alt=&quot;OCO order&quot; class=&quot;img-responsive&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I wouldn’t reccomend this order type if you need to have control of better granularity (e.g. you want to exit your position 50% at some price point and 50% at another). This is also not recommended if your strategy is contingent on time if say, you want to force a position to close X minutes after you enter. in this case, entering and exiting positions with MARKET trigger orders would be more appropiate.&lt;/p&gt;
 
 &lt;h2 id=&quot;indicators-leveraged-for-my-bots-strategy&quot;&gt;Indicators leveraged for my bot’s strategy&lt;/h2&gt;
 
@@ -136,7 +136,7 @@
 
 &lt;p&gt;My strategy relied on trendline detection as the key indicator for deciding whether to execute trades. This was achieved with the use of my python library &lt;b&gt;&lt;a href=&quot;https://github.com/ednunezg/pytrendline&quot;&gt;pytrendline&lt;/a&gt;&lt;/b&gt; which you can use for detecting trendlines formed at the support or resistance level of candlesticks.&lt;/p&gt;
 
-&lt;p&gt;Another indicators I leveraged were news sentiments based on keywords matched against a stock’s news feed. SMA and EMA curves and number of price inflection points were also computed and analyzed against a set of criteria to decide if the trade is worth doing.&lt;/p&gt;
+&lt;p&gt;Another indicators I leveraged were news sentiments based on keywords matched against a stock’s news feed. SMA curves, EMA curves, and number of price inflection points were also computed and analyzed against a set of criteria to decide if the trade is worth doing.&lt;/p&gt;
 &lt;h2 id=&quot;what-do-you-need-to-build-reliable-and-back-testable-trading-bot&quot;&gt;What do you need to build reliable and back-testable trading bot?&lt;/h2&gt;
 
 &lt;p&gt;A succesful testable bot should be one that can be made with an offline and online mode of operation. If these two modes can be provided as an input, you can leverage the offline mode for performing historical tests using a backtesting framework that wraps around the program, and the online mode for a production use case.&lt;/p&gt;
@@ -160,11 +160,11 @@
 
 &lt;ul&gt;
   &lt;li&gt;Core program: Python language and Pandas lib for plenty of matrix operations&lt;/li&gt;
-  &lt;li&gt;Placing orders: &lt;a href=&quot;https://developer.tdameritrade.com/apis&quot;&gt;Ameritrade API order placement endpoint&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Fetching OHLC price information: &lt;a href=&quot;https://developer.tdameritrade.com/apis&quot;&gt;Ameritrade API price history endpoint&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Fetching news: &lt;a href=&quot;https://iexcloud.io/docs/api/#news&quot;&gt;IEX Cloud news endpoint&lt;/a&gt;. Handy API gives a feed of latest news from many sources just providing stock symbol as an input&lt;/li&gt;
-  &lt;li&gt;Log output and alerting: &lt;a href=&quot;https://logz.io/&quot;&gt;Logz.io&lt;/a&gt;. Logz.io is a useful ELK-as-a-service platform in which I pushed all of my online mode logs for the purposes of long term retention, debugging, and alerting.&lt;/li&gt;
-  &lt;li&gt;Visualization of candlestick chart, EMA/SMA curves, trendlines: &lt;a href=&quot;https://bokeh.org/&quot;&gt;Bokeh&lt;/a&gt;. All of my trades generated also create an output HTML file with a visualization snapshot of the stock’s candlesticks, trendlines, curves and other indicators at that point in time. Really useful for debugging&lt;/li&gt;
+  &lt;li&gt;Placing orders: &lt;b&gt;&lt;a href=&quot;https://developer.tdameritrade.com/apis&quot;&gt;Ameritrade API order placement endpoint&lt;/a&gt; &lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;Fetching OHLC price information: &lt;b&gt;&lt;a href=&quot;https://developer.tdameritrade.com/apis&quot;&gt;Ameritrade API price history endpoint&lt;/a&gt;.&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;Fetching news: &lt;b&gt;&lt;a href=&quot;https://iexcloud.io/docs/api/#news&quot;&gt;IEX Cloud news endpoint&lt;/a&gt;&lt;/b&gt;. Handy API gives a feed of latest news from many sources just providing stock symbol as an input&lt;/li&gt;
+  &lt;li&gt;Log output and alerting: &lt;b&gt;&lt;a href=&quot;https://logz.io/&quot;&gt;Logz.io&lt;/a&gt;&lt;/b&gt;. Logz.io is a useful ELK-as-a-service platform in which I pushed all of my online mode logs for the purposes of long term retention, debugging, and alerting.&lt;/li&gt;
+  &lt;li&gt;Visualization of candlestick chart, EMA/SMA curves, trendlines: &lt;b&gt;&lt;a href=&quot;https://bokeh.org/&quot;&gt;Bokeh&lt;/a&gt;&lt;/b&gt;. All of my trades generated also create an output HTML file with a visualization snapshot of the stock’s candlesticks, trendlines, curves and other indicators at that point in time. Really useful for debugging&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/ALGOTRADING/tech-dependencies.png&quot; alt=&quot;Tech infra&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
@@ -179,7 +179,7 @@
 
 &lt;h2 id=&quot;lessons-learned-and-a-word-of-caution&quot;&gt;Lessons learned and a word of caution&lt;/h2&gt;
 
-&lt;p&gt;Taking on this project as both a challenging technical project and the source of income and the pursuit of a source of income turned out being extremely rewarding and fruitful in learning how to best design reliable+complex backend systems.&lt;/p&gt;
+&lt;p&gt;Taking on this project as both a challenging feat and the pursuit of an extra source of income turned out being extremely rewarding and fruitful in learning how to best design reliable+complex backend systems.&lt;/p&gt;
 
 &lt;p&gt;The two main challenging pieces of solving this puzzle involved proper order lifecycle management and building the backtesting software.&lt;/p&gt;
 
