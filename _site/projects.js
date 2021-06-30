@@ -12,7 +12,7 @@ var projects_json = [
 			"moreinfo":"http://ednunez.me/tech/2021/03/18/VanBuild.html"
 		},
 
-		"tags":["CAD modeling", "Electrical wiring", "Carpentry"]
+		"tags":["CAD modeling", "Electrical wiring", "Carpentry", "Extreme patience"]
 	},
 	{
 		"title":"Algorithmic Day Trading Bot",
