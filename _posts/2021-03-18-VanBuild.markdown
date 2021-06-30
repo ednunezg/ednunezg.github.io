@@ -6,7 +6,7 @@ categories: ["Tech"]
 author: "Eduardo Nunez"
 ---
 
-Between November of 2020 and May 2021, I dedicated most of my time to building my dream home of wheels. It has been a labor of love and patience putting this together from CAD modeling every structure to materializing the build with carpentry work. Although my background is more aligned to software development and I had no prior building/carpentry experience, this project is one of the proudest feats I've accomplished.
+Between November of 2020 and May 2021, I dedicated most of my time to building my dream home of wheels. It has been a labor of love and patience putting this together from CAD modeling every structure to materializing the build with carpentry work. Although my background is more aligned to software engineer and I no prior building/carpentry experience, this project is one of the proudest feats I've accomplished.
 
 ![Van pic](/posts-photos/VANLIFE/7.jpeg)
 
@@ -14,17 +14,19 @@ Between November of 2020 and May 2021, I dedicated most of my time to building m
 
 It's taught me that anything can be learned and mastered with enough patience and time. 
 
-It's taught me how to be resourceful with both my time, limited set of tools, and how to make things work when all I had at times were awkwardly-shaped scrap piles of materials.
+It's taught me how to be resourceful with my time, limited set of tools, and how to make things work when all I had at times were awkwardly-shaped scrap piles of materials.
 
 But probably most importantly, it's brought me the confidence to build anything I can design and plan for.
 
 ## Space design
 
-I designed the space with an open floor layout in mind. I wanted the space to feel spacious and spread out. Despite seeing many conversions go with ample countertop space on both sides on the vehicle, I thought it was worthwhile to dedicate a small space for the countertop to open space for a two-couch seating area and my bed. 
+I designed the space with an open floor layout in mind. I wanted the space to feel spacious and spread out. Despite having seen many conversions on the internet with ample countertop space on both sides on the vehicle, I thought it was worthwhile to dedicate a small space for the countertop to open space for a two-couch seating area and my bed. 
 
 ![CAD models](/posts-photos/VANLIFE/CAD_ALL.jpg){:class="img-responsive"}{: style="text-align: center;"}
 
 Finding ways to make the space functional and multi-use was also key. I designed my bed to fold up into a couch so I can watch movies projected on the curtains around the cab. A pull-out table was also built for dining and working, and can be stashed away when not in use.
+
+![Table and couch](/posts-photos/VANLIFE/building-wip.jpeg){:class="img-responsive"}{: style="text-align: center;"}
 
 ## Electrical
 
@@ -101,6 +103,6 @@ I followed the water system design laid out on this <b>[Faroutride guide](https:
 
 ## Cookig / Kitchen
 
-This one is extra simple. I'm using a portable 2 burner propane stove from <b>[Camplux](https://www.amazon.com/dp/B0863RHXZY)</b> to cook some of my meals. The stove is hooked up to refillable 1 lb propane bottles. I keep three of these bottles around and refill them every ~2 months. This setup works for me because I only cook with the stove once at the end of day, and some days I'll even skip cooking and eat raw veggies / nuts / fruits. The hot water kettle gets me through the morning for oatmeal and coffee.
+This one is extra simple. I'm using a portable 2 burner propane stove from <b>[Camplux](https://www.amazon.com/dp/B0863RHXZY)</b> to cook some of my meals. The stove is hooked up to refillable 1 lb propane bottles. I keep three of these bottles around and refill them every ~2 months. This setup works for me because I only cook with the stove once at the end of day, and some days I'll even skip cooking and eat raw veggies / nuts / fruits. The [800W Iron Ren kettle](https://www.amazon.com/Portable-Electric-Kettle-Travel-Stainless/dp/B07DMVV475) gets me through the morning for oatmeal and coffee.
 
 Cooking once a day means I can stash away the portable stove when not in use to make room for countertop space. I'm also happy with the choice of not going for a big 20 lb propane tank as I don't have to use up dedicated space for this large tank. The little refillable propane bottles get me through for a long time.
