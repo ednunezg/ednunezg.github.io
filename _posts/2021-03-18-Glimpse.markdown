@@ -6,7 +6,7 @@ categories: ["Tech"]
 author: "Eduardo Nunez"
 ---
 
-During the period between September 2019 and March 2020, I helped built the AR product **GLIMPSE cards**. GLIMPSE cards are business cards that can present digital content to the card's receiver with the aid of Augmented Reality.
+``During the period between September 2019 and March 2020, I helped built the AR product **GLIMPSE cards**. GLIMPSE cards are business cards that can present digital content to the card's receiver with the aid of Augmented Reality.
 
 ![AR in action](/posts-photos/GLIMPSE/detect_demo_trim.gif){:class="img-responsive"}
 {: style="text-align: center;"}
@@ -82,4 +82,4 @@ We shut down the product as we failed to acquire and retain sufficient users to 
 
 On the sales side, there are some aspects we could have definitely improved on to improve user acquisition and retention, including the use of marketing channels like Web Ads, SEO optimization, and directly contacting businesses.
 
-Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.
+Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.``
