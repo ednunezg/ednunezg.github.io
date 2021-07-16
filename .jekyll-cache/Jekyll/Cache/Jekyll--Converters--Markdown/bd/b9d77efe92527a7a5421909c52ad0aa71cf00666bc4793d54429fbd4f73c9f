@@ -1,4 +1,4 @@
-I"}<div class="projects" id="projects">
+I"2<div class="projects" id="projects">
 
 </div>
 
@@ -82,6 +82,11 @@
 			if(projects[i].links.moreinfo != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.moreinfo+'><i class="fa fa-info-circle"></i> More info</a><br>';
 			}
+
+			if(projects[i].links.landingpage != null){
+				linksDiv.innerHTML += '<a href='+projects[i].links.landingpage+'><i class="fa fa-external-link"></i> Landing page</a><br>';
+			}
+
 			if(projects[i].links.source != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.source+'><i class="fa fa-github"></i> Source Code</a><br>';
 			}
