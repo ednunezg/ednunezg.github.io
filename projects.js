@@ -41,6 +41,7 @@ var projects_json = [
 
 		"links":{
 			"moreinfo":"http://ednunez.me/tech/2021/03/18/Glimpse.html",
+			"landingpage":"https://glimpse-landing-page.herokuapp.com/"
 		},
 
 		"tags":["Node.js","React.js","JavaScript", "Shopify", "Stripe"]
