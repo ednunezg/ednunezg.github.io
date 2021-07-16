@@ -5,8 +5,8 @@
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
     <link>http://ednunez.me//</link>
     <atom:link href="http://ednunez.me//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jul 2021 15:33:10 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Jul 2021 15:33:10 -0700</lastBuildDate>
+    <pubDate>Fri, 16 Jul 2021 15:35:38 -0700</pubDate>
+    <lastBuildDate>Fri, 16 Jul 2021 15:35:38 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -175,7 +175,7 @@
     
       <item>
         <title>How we built a mobile AR product from the ground up at GLIMPSE</title>
-        <description>&lt;p&gt;``During the period between September 2019 and March 2020, I helped built the AR product &lt;strong&gt;GLIMPSE cards&lt;/strong&gt;. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.&lt;/p&gt;
+        <description>&lt;p&gt;During the period between September 2019 and March 2020, I helped built the AR product &lt;strong&gt;GLIMPSE cards&lt;/strong&gt;. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/posts-photos/GLIMPSE/detect_demo_trim.gif&quot; alt=&quot;AR in action&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
