@@ -1,0 +1,72 @@
+I"�<p>``During the period between September 2019 and March 2020, I helped built the AR product <strong>GLIMPSE cards</strong>. GLIMPSE cards are business cards that can present digital content to the card’s receiver with the aid of Augmented Reality.</p>
+
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/detect_demo_trim.gif" alt="AR in action" class="img-responsive" /></p>
+
+<p>The GLIMPSE card owner can use the web app to (1) customize business card physical design, (2) customize card’s AR content, and finally (3) have a bulk quantity of cards shipped.</p>
+
+<p>Unfortunately the project was ultimately shut down on April 2020 as we were unable to secure financing to maintain the tech infrastructure.</p>
+
+<h2 id="goals-for-this-project">Goals for this project</h2>
+
+<p>The main challenges for this project were -</p>
+
+<p><strong>1. Building a friction-less onboarding experience for a user to start building their business card.</strong></p>
+
+<p>We wanted to give all of our incoming users a easy chance of trying out the design tool and the Augmented Reality experience prior to buying a stack of cards. For a user to start their journey, they just needed to start an account in our site. They are then be presented with a design tool where they can get a sense of what the AR product would look like if they purchased from us.</p>
+
+<p><img src="/posts-photos/GLIMPSE/login.png" alt="AR in action" class="img-responsive" style="text-align: center;" /></p>
+
+<p><strong>2. Customizable card design</strong></p>
+
+<p>The design tool could be used to insert text and graphics in the physical card along with the AR content. All design components are inputed by the user on a web form that are then projected over to a web canvas. The QR code on the card maps to the AR page that the card receiver can open on their phone.</p>
+
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design1.png" alt="Front card design" class="img-responsive" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design2.png" alt="Back card design" class="img-responsive" /></p>
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/design3.png" alt="AR content design" class="img-responsive" /></p>
+
+<p><strong>3. Smooth AR experience for people receiving business cards</strong></p>
+
+<p>The user receiving the card needs to scan the QR code to be presented with the AR view. We choose the Web AR engine <a href="https://www.8thwall.com/">8th Wall</a> to provide an experience that happens entirely in a mobile browser. The user does not need to download an app. It is as simple as scanning the QR code and giving the mobile browser permission to access the phone’s camera.</p>
+
+<p float="left">
+  <img src="/posts-photos/GLIMPSE/ar1.png" width="200" />
+  <span style="margin-left:30px" />
+  <img src="/posts-photos/GLIMPSE/rooftop_demo.png" width="200" /> 
+</p>
+
+<p><strong>4. Ordering flow and logistics for getting cards shipped efficiently</strong></p>
+
+<p>We leveraged Stripe for handling order payments and managing the order status. Upon a user ordering a set quantity of cards, we unlocked the QR code in the AR app for unlimited viewing and a Stripe order is created with “created” status. On our end, we are notified when the order is received, prepare the shipment through a third party card printing service, and mark the order as “shipped”.</p>
+
+<h2 id="technical-architecture">Technical architecture</h2>
+
+<p style="text-align: center;"><img src="/posts-photos/GLIMPSE/tech_arch.png" alt="Tech architecture" class="img-responsive" /></p>
+
+<p>The project was built under a Node.JS / ReactJS stack hosted under Google Cloud. We leveraged Google Cloud’s Datastore to store user and card information.</p>
+
+<p>The main data entities involved were users and cards. User entities were created upon registration and after a card has been design, a card entity containing all info would be mapped 1-1 to the user.</p>
+
+<p>The web tool for designing cards creates + updates card info, whereas the AR mobile view pulls cards info and presents it with the aid of 8th Wall Engine and AR.js.</p>
+
+<p>The backend piece of the app also leveraged Stripe.js for creating and managing order entities, as well as processing payments.</p>
+
+<h2 id="lessons-upon-shutting-down-the-product">Lessons upon shutting down the product</h2>
+
+<p>We shut down the product as we failed to acquire and retain sufficient users to maintain the costs of cloud hosting and membership to the 8th Wall AR engine. We learned that the AR technology in a product like ours is not reliable enough for mass adoption yet:</p>
+
+<ol>
+  <li>
+    <p>One of the biggest obstacles we faced in retaining users concerned the usability aspect of the AR experience within the card. Perhaps it was obvious to our team how QR codes are scanned, but we learned the hard way that a large percentage of smart phone users are not familiar with QR code scanning. On top of this, we received some reports from people running old versions of Android OS that some phones did not have a QR code scanner built in, which led to some friction in people having to download a seperate QR scanner app.</p>
+  </li>
+  <li>
+    <p>Some users living in regions with slow mobile connectivity were not satisfied with the long delay times in video content appearing on the AR app.</p>
+  </li>
+  <li>
+    <p>There were a few instances of people using the AR app on smartphones without a built in accelerometer, which made the AR experience un-usable.</p>
+  </li>
+</ol>
+
+<p>On the sales side, there are some aspects we could have definitely improved on to improve user acquisition and retention, including the use of marketing channels like Web Ads, SEO optimization, and directly contacting businesses.</p>
+
+<p>Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.``</p>
+:ET
