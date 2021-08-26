@@ -5,8 +5,8 @@
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
     <link>http://ednunez.me//</link>
     <atom:link href="http://ednunez.me//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jul 2021 15:35:38 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Jul 2021 15:35:38 -0700</lastBuildDate>
+    <pubDate>Thu, 26 Aug 2021 15:29:49 -0500</pubDate>
+    <lastBuildDate>Thu, 26 Aug 2021 15:29:49 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -164,7 +164,7 @@
 
 &lt;p&gt;Cooking once a day means I can stash away the portable stove when not in use to make room for countertop space. I’m also happy with the choice of not going for a big 20 lb propane tank as I don’t have to use up dedicated space for this large tank. The little refillable propane bottles get me through for a long time.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Mar 2021 12:58:00 -0700</pubDate>
+        <pubDate>Thu, 18 Mar 2021 12:58:00 -0500</pubDate>
         <link>http://ednunez.me//tech/2021/03/18/VanBuild.html</link>
         <guid isPermaLink="true">http://ednunez.me//tech/2021/03/18/VanBuild.html</guid>
         
@@ -247,7 +247,7 @@
 
 &lt;p&gt;Given the option to start the project again from zero, I would use these key learnings to better focus on getting more users to pre-order prior to building the product, invest in sales channels, and get a sense of the defect rate for the product prior to a production release.``&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Mar 2021 12:58:00 -0700</pubDate>
+        <pubDate>Thu, 18 Mar 2021 12:58:00 -0500</pubDate>
         <link>http://ednunez.me//tech/2021/03/18/Glimpse.html</link>
         <guid isPermaLink="true">http://ednunez.me//tech/2021/03/18/Glimpse.html</guid>
         
@@ -355,7 +355,7 @@
 
 &lt;p&gt;Additionally, I would be aware of conditions that could be causing a mismatch between stocks tested and future orders placed for a stock. In my case, I didn’t consider that some stocks couldn’t be shorted by my broker when it came to running the bot in a production use case, but I had been calculating my profits and losses assuming that all stocks could be shorted. This has caused me a significant mismatch between backtesting results and expected results which has made it a challenge to correctly make sense of my tests.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Mar 2021 12:58:00 -0700</pubDate>
+        <pubDate>Thu, 18 Mar 2021 12:58:00 -0500</pubDate>
         <link>http://ednunez.me//tech/2021/03/18/Algotrading.html</link>
         <guid isPermaLink="true">http://ednunez.me//tech/2021/03/18/Algotrading.html</guid>
         
@@ -393,7 +393,7 @@ Countless jaw drops in the San Juans &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt; 
 My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https://lighterpack.com/r/7ibnj3 &lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 24 Jul 2017 19:45:31 -0700</pubDate>
+        <pubDate>Mon, 24 Jul 2017 19:45:31 -0500</pubDate>
         <link>http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2017/07/24/ColoradoTrail.html</guid>
         
@@ -414,7 +414,7 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 
 &lt;p&gt;With no chance for us to survive the storm in a tent, we sought shelter in a castle dungeon. The storms calmed down and we made our escape out of Skye, with the hopes of coming back someday.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Mar 2017 07:15:31 -0700</pubDate>
+        <pubDate>Thu, 23 Mar 2017 09:15:31 -0500</pubDate>
         <link>http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2017/03/23/SkyeTrail.html</guid>
         
@@ -441,7 +441,7 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;img src=&quot;/posts-photos/2016-11-29-BoucherTontoBright/4.jpg&quot; /&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 29 Nov 2016 06:15:31 -0800</pubDate>
+        <pubDate>Tue, 29 Nov 2016 08:15:31 -0600</pubDate>
         <link>http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2016/11/29/GrandCanyon.html</guid>
         
@@ -468,7 +468,7 @@ My Gear List : &lt;a href=&quot;https://lighterpack.com/r/7ibnj3&quot;&gt; https
 &lt;img src=&quot;/posts-photos/2016-05-31-Iceland/7.jpg&quot; /&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 31 May 2016 07:25:31 -0700</pubDate>
+        <pubDate>Tue, 31 May 2016 09:25:31 -0500</pubDate>
         <link>http://ednunez.me//adventures/2016/05/31/Iceland.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/Iceland.html</guid>
         
@@ -514,7 +514,7 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://goo.gl/photos/9BqCHGkRWnN
 
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 31 May 2016 07:15:31 -0700</pubDate>
+        <pubDate>Tue, 31 May 2016 09:15:31 -0500</pubDate>
         <link>http://ednunez.me//adventures/2016/05/31/GR20.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2016/05/31/GR20.html</guid>
         
@@ -560,7 +560,7 @@ View full album &lt;strong&gt;&lt;a href=&quot;https://photos.app.goo.gl/me7NaXL
 &lt;p&gt;Choosing the John Muir Trail as my first long hike has spoiled me a lot. I don’t think you could easily find a well established route that is this remote and so dense with beautiful mountains. Every single day on the Sierras was epic to say the least. For a friendly hike for all experience levels, I think this one’s hard to top.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 30 Aug 2015 07:15:31 -0700</pubDate>
+        <pubDate>Sun, 30 Aug 2015 09:15:31 -0500</pubDate>
         <link>http://ednunez.me//adventures/2015/08/30/JMT.html</link>
         <guid isPermaLink="true">http://ednunez.me//adventures/2015/08/30/JMT.html</guid>
         
