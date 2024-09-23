@@ -1,11 +1,8 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
 
-
-
 // Our variables
+@use "sass:list";
+
 $base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
@@ -70,7 +67,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font: $base-font-weight list.slash($base-font-size, $base-line-height) $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -90,7 +87,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 0.5;
 }
 
 
@@ -197,7 +194,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit * 0.5;
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -252,8 +249,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: $spacing-unit * 0.5;
+        padding-left: $spacing-unit * 0.5;
     }
 }
 
@@ -453,7 +450,7 @@ pre {
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right: $spacing-unit * 0.5;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -513,7 +510,7 @@ pre {
   height: 36px;
 
   border-top: 2px dashed $grey-color-light;
-  padding: $spacing-unit/2;
+  padding: $spacing-unit*0.5;
   text-align: center;
 }
 
