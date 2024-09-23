@@ -77,7 +77,7 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 <div class="outside-adventures">
 	<p> I am a super-fan of long distance, self-powered travel. I enjoy the simplicity of carrying everything I need on my pack, and hiking away into the unknown! </p>
 	
-	<h4> <a href="https://lighterpack.com/r/7ibnj3"> What's in my pack? </a> </h4>
+	<h4> <a href="https://lighterpack.com/r/ss4wft"> What's in my pack? </a> </h4>
 	
 	<br />
 	
