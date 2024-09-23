@@ -1,5 +1,5 @@
 /ignore
 /.sass-cache
 .DS_Store
-.jekyll-cache
-_site/*
+# .jekyll-cache
+# _site/*
