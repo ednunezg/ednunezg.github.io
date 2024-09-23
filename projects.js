@@ -1,5 +1,20 @@
 var projects_json = [
 	{
+		"title":"Grateful Dead Show Archive 🚧 (WIP) 🚧",
+
+		"date":"2024/06",
+
+		"image":"/assets/projects/gd.png",
+
+		"info": "Working on an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
+
+		"links":{
+			
+		},
+
+		"tags":["Elixir", "React"]
+	},
+	{
 		"title":"RAM Promaster Van Mobile Home",
 
 		"date":"2020/11",
@@ -111,7 +126,7 @@ var projects_json = [
 
 		"image":"/assets/projects/speechanalytics.png",
 
-		"info":"iOS application designed to detect speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their speech skills. Made with four other students for my Senior Design class.",
+		"info":"iOS application buitl for my college Senior project. Detects speech stutters, monotony, long pauses, and filler words in real-time. It provides speakers with a statistical analysis of their performance to aid in improving their speech skills. Made with four other students for my Senior Design class.",
 
 		"links":{
 			"main":null,

@@ -82,12 +82,18 @@ Love grinding and powering out some forward propelling bipedal movement! Seeing 
 	<br />
 	
 
-	<!-- <h4>Upcoming Trips</h4>
-		<ul>
-		<li>Aug 2017 - Superior Hiking Trail Thru Hike</li>
-		</ul> -->
-
 	<h4>Past Trips</h4>
+
+	<h5>2024</h5>
+		<ul>
+			<li>2024 - <a href="/adventures/2024/09/08/PCT.html">Pacific Crest Trail Thru-Hike</a></li>
+		</ul>
+
+	<h5>2018-2023</h5>
+		<ul>
+		<!-- <li>Aug 2017 - <a href="/adventures/2017/10/27/Badlands.html">Badlands mini traverse</a></li> -->
+		<li>I haven't done a great job of keeping up to date, maybe I will if/when I have time :P</li>
+		</ul>
 
 	<h5>2017</h5>
 		<ul>
