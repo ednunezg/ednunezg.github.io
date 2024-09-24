@@ -223,6 +223,11 @@ pre > code {
   font-weight: 300;
   line-height: 150%;
 }
+@media screen and (max-width: 600px) {
+  .about-me { /* ADDED: allows nav to be displayed better on mobile without compressing */
+    font-size: 17px;
+  }
+}
 .about-me .how-i-can-provide {
   background-color: #ffffff;
   padding: 16px;

@@ -323,9 +323,12 @@ pre {
   padding-left: 1em;
   padding-right: 1em;
   font-size: 20px;
-
   font-family: "Source Sans Pro";
   font-weight: 300;
+
+  @include media-query($on-palm) { /* ADDED: allows nav to be displayed better on mobile without compressing */
+    font-size: 17px;
+  }
 
   .how-i-can-provide {
     background-color: #ffffff;
