@@ -14,7 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px / 1.5 "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   color: #000;
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
@@ -332,6 +335,12 @@ pre > code {
 .exclamationMark {
   padding-left: 2em;
   padding-right: 2em;
+}
+@media screen and (max-width: 600px) {
+  .exclamationMark { /* ADDED: allows nav to be displayed better on mobile without compressing */
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 .site-navigation {

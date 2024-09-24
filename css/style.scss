@@ -433,6 +433,11 @@ pre {
 .exclamationMark {
   padding-left: 2em;
   padding-right: 2em;
+
+  @include media-query($on-palm) { /* ADDED: allows nav to be displayed better on mobile without compressing */
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 .site-navigation {
   color: #000;
