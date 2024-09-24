@@ -5,8 +5,8 @@
     <description>software developer by day . runner by night . amateur musician whatever time is left</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Sep 2024 11:37:37 -0700</pubDate>
-    <lastBuildDate>Tue, 24 Sep 2024 11:37:37 -0700</lastBuildDate>
+    <pubDate>Tue, 24 Sep 2024 13:00:57 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Sep 2024 13:00:57 -0700</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -27,7 +27,7 @@
 
 &lt;h4&gt;Youtube Video Doc&lt;/h4&gt;
 
-&lt;div style=&quot;text-align: center;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OUtWeBt6rNY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;iframe maxwidth=&quot;315&quot; width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/OUtWeBt6rNY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;br /&gt;
 

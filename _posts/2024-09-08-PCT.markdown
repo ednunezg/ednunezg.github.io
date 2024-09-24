@@ -23,7 +23,7 @@ This trail has stolen my heart forever. Extra grateful to the many people I met 
 
 <h4>Youtube Video Doc</h4>
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/OUtWeBt6rNY" frameborder="0" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe maxWidth="560" maxWidth="315"  width="100%" height="400" src="https://www.youtube.com/embed/OUtWeBt6rNY" frameborder="0" allowfullscreen></iframe></div>
 
 <br/>
 
