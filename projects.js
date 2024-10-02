@@ -95,7 +95,7 @@ var projects_json = [
 		"image":"/assets/projects/strava.png",
 		"info":"Simple, but beautiful, single page training log viewer for Strava users, bypassing social media clutter on Strava's website. Imports workouts via Strava's API and presents log with a calendar-like view.  Intended to be primarily used as a 'new tab' page.",
 		"links":{
-			"main":"https://stravalogdemo.herokuapp.com",
+			"main":"https://stravalog.onrender.com",
 			"moreinfo":null,
 			"demo":null,
 			"source":"https://github.com/ednunezg/StravaLog"
