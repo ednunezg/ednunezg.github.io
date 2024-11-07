@@ -1,18 +1,18 @@
 var projects_json = [
 	{
-		"title":"Grateful Dead Show Archive 🚧 (WIP) 🚧",
+		"title":"Grateful Dead Show Archive",
 
 		"date":"2024/06",
 
-		"image":"/assets/projects/gd.png",
+		"image":"/assets/projects/syf.png",
 
-		"info": "Working on an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
+		"info": "Building an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
 
 		"links":{
-			
+			"main":"https://deadlyarchive-5q6q.onrender.com"
 		},
 
-		"tags":["Elixir", "React"]
+		"tags":["Python", "Flask", "React", "PostgreSQL", "TypeScript"]
 	},
 	{
 		"title":"RAM Promaster Van Mobile Home",

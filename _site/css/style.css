@@ -235,6 +235,23 @@ pre > code {
   margin-bottom: 26px;
   border: 1px solid #d0d0d0;
 }
+.about-me .show-values-btn {
+  background-color: white;
+  border: 1px solid #000080;
+  color: #000080;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.about-me .show-values-btn:hover {
+  background-color: rgb(207, 207, 207);
+}
 .about-me a {
   font-weight: 500;
 }

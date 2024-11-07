@@ -1,18 +1,18 @@
 var projects_json = [
 	{
-		"title":"Grateful Dead Show Archive 🚧 (WIP) 🚧",
+		"title":"Grateful Dead Show Archive",
 
 		"date":"2024/06",
 
-		"image":"/assets/projects/gd.png",
+		"image":"/assets/projects/syf.png",
 
-		"info": "Working on an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
+		"info": "Building an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
 
 		"links":{
-			
+			"main":"https://deadlyarchive-5q6q.onrender.com"
 		},
 
-		"tags":["Elixir", "React"]
+		"tags":["Python", "Flask", "React", "PostgreSQL", "TypeScript"]
 	},
 	{
 		"title":"RAM Promaster Van Mobile Home",
@@ -56,66 +56,50 @@ var projects_json = [
 
 		"links":{
 			"moreinfo":"http://ednunez.me/tech/2021/03/18/Glimpse.html",
-			"landingpage":"https://glimpse-landing-page.herokuapp.com/"
+			"landingpage":"https://glimpse-landing-page.netlify.app/"
 		},
 
 		"tags":["Node.js","React.js","JavaScript", "Shopify", "Stripe"]
 	},
 	{
+		"hidden":"true",
 		"title":"To-do list app with user authentication",
-
 		"date":"2017/08",
-
 		"image":"/assets/projects/todo.png",
-
 		"info":"Built this for the purposes of learning React.js and handling authentication with Google and Facebook OAuth APIs. This web app allows a logged in user to add to-dos to his profile. All to-dos are synched with a MongoDB database.",
-
 		"links":{
 			"main":"https://todos-reactjs.herokuapp.com",
 			"moreinfo":null,
 			"source":"https://github.com/ednunezg/react-todolist"
 		},
-
 		"tags":["Node.js","React.js","Flux","JavaScript","MongoDB"]
 	},
-
 	{
 		"hidden":"true",
-
 		"title":"FKT Setter: A GPS logger for iOS",
-
 		"date":"2017/08",
-
 		"image":"/assets/projects/fkt-setter.png",
-
 		"info":"[Insert GPS logger info here]",
-
 		"links":{
 			"main":null,
 			"moreinfo":null,
 			"source":null
 		},
-
 		"tags":["Swift","Node.js","MongoDB","REST API"]
 	},
 
 
 	{
 		"title":"Training log viewer for runners and cyclists",
-
 		"date":"2017/06",
-
 		"image":"/assets/projects/strava.png",
-
 		"info":"Simple, but beautiful, single page training log viewer for Strava users, bypassing social media clutter on Strava's website. Imports workouts via Strava's API and presents log with a calendar-like view.  Intended to be primarily used as a 'new tab' page.",
-
 		"links":{
-			"main":"https://stravalogdemo.herokuapp.com",
+			"main":"https://stravalog.onrender.com",
 			"moreinfo":null,
 			"demo":null,
 			"source":"https://github.com/ednunezg/StravaLog"
 		},
-
 		"tags":["Node.js","JavaScript","jQuery","REST API"]
 	},
 

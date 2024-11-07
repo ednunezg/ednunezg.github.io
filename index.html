@@ -10,19 +10,8 @@ layout: default
 <!--<div style="text-align: center;"><img src="{{ site.url }}/assets/picture-profile.jpg" width="200" alt="image"></div><br>-->
 
 <p>
-I'm Ed, a full-stack software engineer interested in doing high-impact work with highly-energetic people! Currently looking for my next career move.
+I'm Ed, a full-stack software engineer interested in doing high-impact work with highly-energetic people! Currently looking for my next career move. On the side, I build and maintain <a target="_blank" href="https://deadlyarchive-5q6q.onrender.com">Deadly Archive</a> - an interactive live music archive.
 </p>
-
-<div class="how-i-can-provide">
-<p style="margin-bottom: 0px; padding-bottom: 0px;">How I can provide value to your org:</p>
-    <ul style="list-style-type: '- '; line-height: normal; margin-left: 16px;">
-        <li><b>Process oriented engineer:</b> Always seeking to find common ground to instill order in organizational chaos.</li>
-        <li><b>Designing and creating beautiful full stack web experiences:</b> Fluent in React.JS and integrating it with any backend. I seek to build pixel-perfect experiences for people with their UX in mind.</li>
-        <li><b>Finding the 90/10 low hanging fruit for operationally heavy work:</b> Proven track record of automating away hours of people's valuable time so they can do work that matters.</li>
-        <li><b>Making your org more data driven:</b> Great data fluency. Data access is important to me - whether you need to build out a data warehouse, or create structured clean data so people can make great decisions + streamline data workflows.</li>
-        <li><b>Throw any problem at me:</b> I enjoy obsessing about a challenge and figuring things out, even if if it's an unfamiliar domain to me.</li>
-    </ul>
-</div>
 
 <p>
     During my 2.5 year stint at <a target="_blank"  href="https://coinlist.co/">CoinList</a>, I helped scale up a wide set of operational touchpoints for the company - building out data warehousing, data reporting, numerous internal tools, compliance rules & controls for users, and much more.
@@ -46,7 +35,37 @@ Sometimes, I'll go <a target="_blank" href="{{ site.url }}/outside">outside</a> 
 Here's my <a target="_blank" href="http://www.github.com/ednunezg">Github</a> and <a target="_blank" href="https://www.linkedin.com/in/ednunezg/">LinkedIn</a>. If you'd like to contact me, feel free to drop me a line at <a href="mailto:ed@ednunez.me">ed@ednunez.me</a>. Look forward to hearing from you!
 </p>
 
+<div class="how-i-can-provide">
+    <div style="display: flex; align-items: center;">
+        <p style="margin-bottom: 0px; padding-bottom: 0px;">See how I can provide value to your team:</p>
+        <button onclick="toggleValueList()" id="toggleValueBtn" class="show-values-btn">(show)</button>
+    </div>
+    <ul id="valueList" style="display: none; list-style-type: '- '; line-height: normal; margin-left: 16px;">
+        <li><b>Process oriented engineer:</b> Always seeking to find common ground to instill order in organizational chaos.</li>
+        <li><b>Designing and creating beautiful full stack web experiences:</b> Fluent in React.JS and integrating it with any backend. I seek to build pixel-perfect experiences for people with their UX in mind.</li>
+        <li><b>Finding the 90/10 low hanging fruit for operationally heavy work:</b> Proven track record of automating away hours of people's valuable time so they can do work that matters.</li>
+        <li><b>Making your org more data driven:</b> Great data fluency. Data access is important to me - whether you need to build out a data warehouse, or create structured clean data so people can make great decisions + streamline data workflows.</li>
+        <li><b>Throw any problem at me:</b> I enjoy obsessing about a challenge and figuring things out, even if if it's an unfamiliar domain to me.</li>
+    </ul>
 </div>
 
 
 </div>
+
+
+</div>
+
+<script>
+function toggleValueList() {
+    const list = document.getElementById('valueList');
+    const btn = document.getElementById('toggleValueBtn');
+    
+    if (list.style.display === 'none') {
+        list.style.display = 'block';
+        btn.textContent = '(hide)';
+    } else {
+        list.style.display = 'none';
+        btn.textContent = '(show)';
+    }
+}
+</script>
