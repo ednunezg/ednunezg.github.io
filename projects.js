@@ -10,7 +10,7 @@ var projects_json = [
 
 		"links":{
 			"main":"https://deadlyarchive.com",
-			"moreinfo":"https://www.reddit.com/r/gratefuldead/comments/1gmxt06/browse_shows_by_specific_song_rank_shows_by/"
+			"reddit":"https://www.reddit.com/r/gratefuldead/comments/1gmxt06/browse_shows_by_specific_song_rank_shows_by/"
 		},
 
 		"tags":["Python", "Flask", "React", "PostgreSQL", "TypeScript"]
