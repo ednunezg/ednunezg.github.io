@@ -92,6 +92,10 @@ order: 1
 				linksDiv.innerHTML += '<a href='+projects[i].links.moreinfo+'><i class="fa fa-info-circle"></i> More info</a><br>';
 			}
 
+			if(projects[i].links.reddit != null){
+				linksDiv.innerHTML += '<a href='+projects[i].links.reddit+'><i class="fa fa-reddit"></i> Reddit Announcement</a><br>';
+			}
+
 			if(projects[i].links.landingpage != null){
 				linksDiv.innerHTML += '<a href='+projects[i].links.landingpage+'><i class="fa fa-external-link"></i> Landing page</a><br>';
 			}
