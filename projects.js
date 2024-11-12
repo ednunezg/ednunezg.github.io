@@ -9,7 +9,7 @@ var projects_json = [
 		"info": "Building an interactive Grateful Dead show database, visual archive. Meant to be an interactive tool for discovering shows adored by GD fans. If this is interesting to you, reach out !",
 
 		"links":{
-			"main":"https://deadlyarchive-5q6q.onrender.com"
+			"main":"https://deadlyarchive.com"
 		},
 
 		"tags":["Python", "Flask", "React", "PostgreSQL", "TypeScript"]
